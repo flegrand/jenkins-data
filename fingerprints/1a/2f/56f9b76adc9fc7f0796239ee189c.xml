@@ -15,7 +15,7 @@
       <usages>
         <entry>
           <string>tomcat/8</string>
-          <ranges>3-8</ranges>
+          <ranges>3-10</ranges>
         </entry>
       </usages>
       <ancestorImageIds class="sorted-set">

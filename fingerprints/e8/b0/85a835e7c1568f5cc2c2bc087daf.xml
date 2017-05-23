@@ -15,7 +15,7 @@
       <usages>
         <entry>
           <string>app1/master</string>
-          <ranges>1-7</ranges>
+          <ranges>1-9</ranges>
         </entry>
       </usages>
       <ancestorImageIds class="sorted-set">

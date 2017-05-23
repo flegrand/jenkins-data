@@ -1,0 +1,19 @@
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/httpd:2.4-build11
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/httpd]
+4e32ed69300c: Preparing
+1dffd85c716f: Preparing
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+b51149973e6a: Preparing
+af316457ad9b: Waiting
+4c1d3a53ae10: Waiting
+1dffd85c716f: Waiting
+b51149973e6a: Waiting
+4e32ed69300c: Waiting
+1dffd85c716f: Mounted from demo/centos
+af316457ad9b: Mounted from demo/java
+4c1d3a53ae10: Mounted from demo/java
+b51149973e6a: Mounted from demo/java
+4e32ed69300c: Pushed
+2.4-build11: digest: sha256:31489139b453ec9e6da70afd97134935b2048ce85a82811d05122190cc2040a2 size: 1372

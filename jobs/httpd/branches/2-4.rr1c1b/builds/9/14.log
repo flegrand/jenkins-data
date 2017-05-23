@@ -1,0 +1,9 @@
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/httpd:2.4-build9
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/httpd]
+4e32ed69300c: Preparing
+1dffd85c716f: Preparing
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+b51149973e6a: Preparing
+denied: requested access to the resource is denied

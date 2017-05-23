@@ -1,0 +1,8 @@
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/centos:7-build13
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/centos]
+1dffd85c716f: Preparing
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+b51149973e6a: Preparing
+unauthorized: token not found

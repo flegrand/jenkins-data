@@ -1,0 +1,12 @@
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/centos:7
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/centos]
+1dffd85c716f: Preparing
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+b51149973e6a: Preparing
+1dffd85c716f: Layer already exists
+b51149973e6a: Layer already exists
+af316457ad9b: Layer already exists
+4c1d3a53ae10: Layer already exists
+7: digest: sha256:375e1d337769c9888b9078357391ad9f9df54ca79fbaa58c8f52fa4868644e64 size: 1160

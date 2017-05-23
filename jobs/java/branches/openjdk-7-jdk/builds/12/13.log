@@ -1,0 +1,5 @@
+[java_openjdk-7-jdk-XBFBUI44C6TM22UFDXFBCXPWAMZIDF7343PE2RKFQQVXIYYCA6YA] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk-build12 registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk-build12
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk-build12 registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk-build12

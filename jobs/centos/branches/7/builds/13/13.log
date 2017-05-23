@@ -1,0 +1,5 @@
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/centos:7-build13 registry.demo.cloudcontrolled.net/demo/centos:7-build13
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/centos:7-build13 registry.demo.cloudcontrolled.net/demo/centos:7-build13

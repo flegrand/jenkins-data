@@ -15,7 +15,7 @@
       <usages>
         <entry>
           <string>centos/7</string>
-          <ranges>1-8,11-12</ranges>
+          <ranges>1-16</ranges>
         </entry>
       </usages>
       <descendantImageIds class="sorted-set">

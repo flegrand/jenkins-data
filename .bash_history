@@ -25,3 +25,21 @@ docker login registry.demo.cloudcontrolled.net
 cat .docker/config.json 
 git pull centos:7
 docker pull centos:7
+ps aux
+ll
+docker images
+docker login registry.demo.cloudcontrolled.net
+docker login --help
+rm -rf .docker
+ll
+ls
+ll
+ls
+l
+ll
+ls
+docker login registry.demo.cloudcontrolled.net
+cd
+cat .docker/config.json 
+cd
+cat .docker/config.json 

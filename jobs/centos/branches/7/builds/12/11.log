@@ -1,0 +1,15 @@
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/centos:7-build12 .
+Sending build context to Docker daemon 115.7 kB
+Step 1/4 : FROM centos:7
+ ---> 8140d0c64310
+Step 2/4 : RUN yum upgrade -y
+ ---> Using cache
+ ---> 63b4dcea346c
+Step 3/4 : RUN yum install -y zip unzip procps systat net-tools supervisor python-setuptools wget
+ ---> Using cache
+ ---> 096e1e64b83b
+Step 4/4 : RUN ln -sf /usr/share/zoneinfo/Europe/Zurich /etc/localtime
+ ---> Using cache
+ ---> 1db9b793336c
+Successfully built 1db9b793336c

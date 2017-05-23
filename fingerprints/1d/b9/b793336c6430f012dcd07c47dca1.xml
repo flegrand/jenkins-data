@@ -15,7 +15,7 @@
       <usages>
         <entry>
           <string>centos/7</string>
-          <ranges>1-8,11-12</ranges>
+          <ranges>1-16</ranges>
         </entry>
       </usages>
       <ancestorImageIds class="sorted-set">
@@ -28,15 +28,15 @@
       <usages>
         <entry>
           <string>java/openjdk-8-jdk</string>
-          <ranges>7-13</ranges>
+          <ranges>7-17</ranges>
         </entry>
         <entry>
           <string>httpd/2.4</string>
-          <ranges>1-7</ranges>
+          <ranges>1-11</ranges>
         </entry>
         <entry>
           <string>java/openjdk-7-jdk</string>
-          <ranges>1-10</ranges>
+          <ranges>1-14</ranges>
         </entry>
       </usages>
       <descendantImageIds class="sorted-set">

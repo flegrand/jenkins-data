@@ -15,7 +15,7 @@
       <usages>
         <entry>
           <string>httpd/2.4</string>
-          <ranges>1-7</ranges>
+          <ranges>1-11</ranges>
         </entry>
       </usages>
       <ancestorImageIds class="sorted-set">
@@ -28,7 +28,7 @@
       <usages>
         <entry>
           <string>php/5</string>
-          <ranges>1-8</ranges>
+          <ranges>1-10</ranges>
         </entry>
       </usages>
       <descendantImageIds class="sorted-set">

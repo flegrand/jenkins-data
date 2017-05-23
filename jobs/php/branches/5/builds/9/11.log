@@ -1,0 +1,18 @@
+[php_5-S3KRGTVXIVMCZZA42SYB4NKVM6IK34AJ37SX22QNQNPDLEGRHSOQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/php:5-build9 .
+Sending build context to Docker daemon  76.8 kB
+Step 1/5 : FROM registry.demo.cloudcontrolled.net/demo/httpd:2.4
+ ---> d16a91c05d15
+Step 2/5 : RUN yum update -y && yum install -y php-5.4.16 php-mysql-5.4.16
+ ---> Using cache
+ ---> 2b987a0a3c2a
+Step 3/5 : ADD run-httpd.sh /run-httpd.sh
+ ---> Using cache
+ ---> bcd612c38783
+Step 4/5 : RUN chmod -v +x /run-httpd.sh
+ ---> Using cache
+ ---> f4bc3ec130e9
+Step 5/5 : CMD /run-httpd.sh
+ ---> Using cache
+ ---> 7f1ed485e978
+Successfully built 7f1ed485e978

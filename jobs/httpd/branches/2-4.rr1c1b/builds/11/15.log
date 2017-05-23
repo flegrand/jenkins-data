@@ -1,0 +1,5 @@
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/httpd:2.4-build11 registry.demo.cloudcontrolled.net/demo/httpd:2.4
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/httpd:2.4-build11 registry.demo.cloudcontrolled.net/demo/httpd:2.4
