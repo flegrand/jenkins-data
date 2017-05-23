@@ -1,49 +1,33 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag plugin="workflow-support@2.14">
-  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepEndNode" plugin="workflow-cps@2.31">
+  <node class="org.jenkinsci.plugins.workflow.cps.nodes.StepAtomNode" plugin="workflow-cps@2.31">
     <parentIds>
       <string>5</string>
     </parentIds>
     <id>6</id>
-    <startId>4</startId>
+    <descriptorId>org.jenkinsci.plugins.workflow.support.steps.StageStep</descriptorId>
   </node>
   <actions>
-    <org.jenkinsci.plugins.workflow.actions.BodyInvocationAction plugin="workflow-api@2.15"/>
-    <org.jenkinsci.plugins.workflow.actions.ErrorAction plugin="workflow-api@2.15">
-      <error class="java.lang.InterruptedException">
-        <stackTrace>
-          <trace>java.lang.Object.wait(Native Method)</trace>
-          <trace>java.lang.Object.wait(Object.java:502)</trace>
-          <trace>java.lang.UNIXProcess.waitFor(UNIXProcess.java:395)</trace>
-          <trace>hudson.Proc$LocalProc.join(Proc.java:320)</trace>
-          <trace>hudson.Proc.joinWithTimeout(Proc.java:166)</trace>
-          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:1873)</trace>
-          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandWithCredentials(CliGitAPIImpl.java:1596)</trace>
-          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl.access$300(CliGitAPIImpl.java:71)</trace>
-          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl$1.execute(CliGitAPIImpl.java:348)</trace>
-          <trace>org.jenkinsci.plugins.gitclient.CliGitAPIImpl$2.execute(CliGitAPIImpl.java:545)</trace>
-          <trace>hudson.plugins.git.GitSCM.retrieveChanges(GitSCM.java:1067)</trace>
-          <trace>hudson.plugins.git.GitSCM.checkout(GitSCM.java:1107)</trace>
-          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep.checkout(SCMStep.java:109)</trace>
-          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:83)</trace>
-          <trace>org.jenkinsci.plugins.workflow.steps.scm.SCMStep$StepExecutionImpl.run(SCMStep.java:73)</trace>
-          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1$1.call(AbstractSynchronousNonBlockingStepExecution.java:47)</trace>
-          <trace>hudson.security.ACL.impersonate(ACL.java:260)</trace>
-          <trace>org.jenkinsci.plugins.workflow.steps.AbstractSynchronousNonBlockingStepExecution$1.run(AbstractSynchronousNonBlockingStepExecution.java:44)</trace>
-          <trace>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</trace>
-          <trace>java.util.concurrent.FutureTask.run(FutureTask.java:266)</trace>
-          <trace>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</trace>
-          <trace>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</trace>
-          <trace>java.lang.Thread.run(Thread.java:748)</trace>
-        </stackTrace>
-        <suppressedExceptions class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
-          <c class="list"/>
-          <list reference="../c"/>
-        </suppressedExceptions>
-      </error>
-    </org.jenkinsci.plugins.workflow.actions.ErrorAction>
+    <org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl plugin="workflow-cps@2.31">
+      <arguments class="linked-hash-map">
+        <entry>
+          <string>name</string>
+          <string>Build and Push Docker image</string>
+        </entry>
+      </arguments>
+      <isUnmodifiedBySanitization>true</isUnmodifiedBySanitization>
+    </org.jenkinsci.plugins.workflow.cps.actions.ArgumentsActionImpl>
+    <org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+      <charset>UTF-8</charset>
+    </org.jenkinsci.plugins.workflow.support.actions.LogActionImpl>
+    <org.jenkinsci.plugins.workflow.actions.LabelAction plugin="workflow-api@2.15">
+      <displayName>Build and Push Docker image</displayName>
+    </org.jenkinsci.plugins.workflow.actions.LabelAction>
+    <org.jenkinsci.plugins.workflow.support.steps.StageStepExecution_-StageActionImpl plugin="pipeline-stage-step@2.2">
+      <stageName>Build and Push Docker image</stageName>
+    </org.jenkinsci.plugins.workflow.support.steps.StageStepExecution_-StageActionImpl>
     <org.jenkinsci.plugins.workflow.actions.TimingAction plugin="workflow-api@2.15">
-      <startTime>1495545760818</startTime>
+      <startTime>1495550387799</startTime>
     </org.jenkinsci.plugins.workflow.actions.TimingAction>
   </actions>
 </org.jenkinsci.plugins.workflow.support.storage.SimpleXStreamFlowNodeStorage_-Tag>

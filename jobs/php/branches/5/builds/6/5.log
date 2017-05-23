@@ -1,0 +1,16 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:flegrand/php.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/php.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/php.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/5^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/5^{commit} # timeout=10
+Checking out Revision 9c836d2c2d3dabfc4e4c731bd8251dcd7ca064f9 (refs/remotes/origin/5)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 9c836d2c2d3dabfc4e4c731bd8251dcd7ca064f9
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D 5 # timeout=10
+ > git checkout -b 5 9c836d2c2d3dabfc4e4c731bd8251dcd7ca064f9
+ > git rev-list 9c836d2c2d3dabfc4e4c731bd8251dcd7ca064f9 # timeout=10

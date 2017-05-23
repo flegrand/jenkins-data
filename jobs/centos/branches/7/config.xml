@@ -1,10 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <flow-definition plugin="workflow-job@2.11">
+  <actions/>
   <keepDependencies>false</keepDependencies>
   <properties>
     <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@2.14">
       <branch plugin="branch-api@2.0.9">
-        <sourceId>bdad9197-ab71-481b-96cd-4e7930e08e48</sourceId>
+        <sourceId>9e50bf2b-f9bb-4760-b455-dc089f4da9c0</sourceId>
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.0.5">
           <name>7</name>
         </head>

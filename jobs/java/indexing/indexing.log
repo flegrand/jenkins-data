@@ -1,0 +1,27 @@
+Started by timer
+[Tue May 23 14:52:00 UTC 2017] Starting branch indexing...
+[8mha:////4MR8CxS0iQ52qNBqamgNZaJK8IwGJE2emQ1VPmchxVDiAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSM6WmxuwDJaz1ijgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+Looking up [8mha:////4LG7WPH7uVcYfFXzV4dcCQL/Qmm8FM7s47Du/aJFjHAsAAAAnh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWFQyCgpKSi20tdPzyzJKE0C6srVT8tJTS9KzEvRBxkPAGeZYymlAAAA[0mflegrand/java
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4H0mcIxl6/YgAS6Bmamtlb/EDmg6/Pb2c26h3zPt3+TiAAAArh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWEwzigpKSi20tdPzyzJKE0C6srVT8tJTS9KzEvRBxtfUpSaqp9fkJqXlZKta64LJAFqIoTUuAAAAA==[0mopenjdk-7-jdk
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: openjdk-7-jdk (still at 96eff793e1b7ebe8b7a19757ad362961461f4ccf)
+
+    Checking branch [8mha:////4DDLCeiRhn23128njqJwwHNfwSv4gfV85iYpEs0n7f52AAAArh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWEwzigpKSi20tdPzyzJKE0C6srVT8tJTS9KzEvRBxtfUpSaqp9fkJqXlZKta6ELJAG7tdRWuAAAAA==[0mopenjdk-8-jdk
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: openjdk-8-jdk (still at 61df72607f98a077efe1499cb2a4ef7b5faf01dc)
+
+  2 branches were processed
+
+Done examining flegrand/java
+
+[Tue May 23 14:52:03 UTC 2017] Finished branch indexing. Indexing took 3 sec
+Finished: SUCCESS

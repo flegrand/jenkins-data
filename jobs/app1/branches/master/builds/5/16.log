@@ -1,0 +1,26 @@
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/app1:master
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/app1]
+36497686a1fc: Preparing
+502b70e2e6b1: Preparing
+7c77d0dafeb6: Preparing
+8232c90cc85c: Preparing
+4e32ed69300c: Preparing
+1dffd85c716f: Preparing
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+b51149973e6a: Preparing
+1dffd85c716f: Waiting
+af316457ad9b: Waiting
+4c1d3a53ae10: Waiting
+b51149973e6a: Waiting
+36497686a1fc: Layer already exists
+502b70e2e6b1: Layer already exists
+7c77d0dafeb6: Layer already exists
+4e32ed69300c: Layer already exists
+8232c90cc85c: Layer already exists
+af316457ad9b: Layer already exists
+1dffd85c716f: Layer already exists
+4c1d3a53ae10: Layer already exists
+b51149973e6a: Layer already exists
+master: digest: sha256:6b2530ae9336f9b52d65ea8ccbce3f705a80437e7152979793d8c2b2d3258960 size: 2208

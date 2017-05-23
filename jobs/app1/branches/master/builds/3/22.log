@@ -1,0 +1,3 @@
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ bash deploy.sh --project app1 --tag master-build3
+Updating service app1_web (id: rqe5lmlnlleda7vzfv82jbrrw)

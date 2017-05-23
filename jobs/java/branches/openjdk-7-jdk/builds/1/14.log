@@ -1,0 +1,9 @@
+[java_openjdk-7-jdk-XBFBUI44C6TM22UFDXFBCXPWAMZIDF7343PE2RKFQQVXIYYCA6YA] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk-build1
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/java]
+a8ca944caaad: Preparing
+1dffd85c716f: Preparing
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+b51149973e6a: Preparing
+denied: requested access to the resource is denied

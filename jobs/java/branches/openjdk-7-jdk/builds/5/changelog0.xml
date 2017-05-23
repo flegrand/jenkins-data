@@ -1,0 +1,22 @@
+commit 96eff793e1b7ebe8b7a19757ad362961461f4ccf
+tree 1def740a4f75910a76aed92f9ede1801a867e8f2
+parent e1022ad2a7c579cc9e07f3bf69df0876096d0359
+author Frederic Legrand <f.legrand@neurones.pro> 2017-05-23 16:48:38 +0200
+committer Frederic Legrand <f.legrand@neurones.pro> 2017-05-23 16:48:38 +0200
+
+    jenkinsfile
+
+
+
+:100644 100644 b228b33dcabfc7954fed17492b70a87334c5b6ba 7ba0cfe25d7dd6f3a0800fba382c1a31f321d986 M	Jenkinsfile
+commit 5ccd1f5a44f692524b89f32ed9c1bb3ae01dbbb6
+tree f3050c39e7d2e6d73aeb6899c08b4a51efd4d96b
+parent 3ce3811eb2a01ce193a40dc02e67469f9bdb2714
+author Frederic Legrand <f.legrand@neurones.pro> 2017-05-16 16:32:51 +0200
+committer Frederic Legrand <f.legrand@neurones.pro> 2017-05-16 16:32:51 +0200
+
+    openjdk 8
+
+
+
+:100644 100644 9844269df63a56a0d3acd3ccf2c8d3ee87fe0b07 7542669ac37c89805813a93e2e2259d9e8261786 M	Dockerfile

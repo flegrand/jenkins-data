@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.11">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>admin</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.1.1">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.3.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.0.5">
+          <name>openjdk-8-jdk</name>
+        </head>
+        <hash>2428436e987ea21aa1dfc8abb3c550d07351e821</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.31">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+  </actions>
+  <queueId>132</queueId>
+  <timestamp>1495550735642</timestamp>
+  <startTime>1495550735643</startTime>
+  <result>FAILURE</result>
+  <duration>3172</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>FAILURE</result>
+    <script>def PROJECT=&apos;httpd&apos;
+def GIT_URL=&apos;git@github.com:flegrand/&apos;+PROJECT+&apos;.git&apos;
+def REGISTRY_URL=&apos;registry.demo.cloudcontrolled.net/demo/&apos;+PROJECT
+
+node {
+        git branch: env.BRANCH_NAME, credentialsId: &apos;jenkins&apos;, url: GIT_URL
+
+        stage &quot;Build and Push Docker image&quot;
+        withDockerRegistry(registry: [credentialsId: &apos;jenkins&apos;]) {
+                withDockerServer(server: [uri: &apos;unix:///var/run/docker.sock&apos;]) {
+                        dockerImg = docker.build(REGISTRY_URL+&apos;:&apos;+env.BRANCH_NAME+&apos;-build&apos;+env.BUILD_NUMBER,&apos;.&apos;)
+                        dockerImg.push()
+                        dockerImg.push(env.BRANCH_NAME)
+                }
+        }
+
+        // Launch dependant jobs
+        //build job: &apos;php/5&apos;, wait: false
+}</script>
+    <loadedScripts class="map"/>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>9602249</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>17190194</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>42501695</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>29450738</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>6080389</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>8</iota>
+    <head>1:8</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>

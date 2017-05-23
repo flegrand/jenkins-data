@@ -1,0 +1,15 @@
+[java_openjdk-7-jdk-XBFBUI44C6TM22UFDXFBCXPWAMZIDF7343PE2RKFQQVXIYYCA6YA] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk-build10 .
+Sending build context to Docker daemon 97.79 kB
+Step 1/4 : FROM registry.demo.cloudcontrolled.net/demo/centos:7
+ ---> 1db9b793336c
+Step 2/4 : RUN yum update -y && yum install -y wget && yum install -y java-1.8.0-openjdk java-1.8.0-openjdk-devel && yum clean all
+ ---> Using cache
+ ---> 4cb36b526ac2
+Step 3/4 : ENV HOME /root
+ ---> Using cache
+ ---> 2c066c98b751
+Step 4/4 : WORKDIR /root
+ ---> Using cache
+ ---> f897ae5e22b8
+Successfully built f897ae5e22b8

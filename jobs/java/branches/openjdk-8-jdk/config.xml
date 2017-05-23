@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@2.11">
+  <actions/>
+  <keepDependencies>false</keepDependencies>
+  <properties>
+    <org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty plugin="workflow-multibranch@2.14">
+      <branch plugin="branch-api@2.0.9">
+        <sourceId>9e50bf2b-f9bb-4760-b455-dc089f4da9c0</sourceId>
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.0.5">
+          <name>openjdk-8-jdk</name>
+        </head>
+        <scm class="hudson.plugins.git.GitSCM" plugin="git@3.3.0">
+          <configVersion>2</configVersion>
+          <userRemoteConfigs>
+            <hudson.plugins.git.UserRemoteConfig>
+              <name>origin</name>
+              <refspec>+refs/heads/*:refs/remotes/origin/*</refspec>
+              <url>https://github.com/flegrand/java.git</url>
+              <credentialsId>flegrand_github</credentialsId>
+            </hudson.plugins.git.UserRemoteConfig>
+            <hudson.plugins.git.UserRemoteConfig>
+              <name>origin</name>
+              <refspec>+refs/pull/*/head:refs/remotes/origin/pr/*</refspec>
+              <url>https://github.com/flegrand/java.git</url>
+              <credentialsId>flegrand_github</credentialsId>
+            </hudson.plugins.git.UserRemoteConfig>
+          </userRemoteConfigs>
+          <branches class="singleton-list">
+            <hudson.plugins.git.BranchSpec>
+              <name>openjdk-8-jdk</name>
+            </hudson.plugins.git.BranchSpec>
+          </branches>
+          <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+          <browser class="hudson.plugins.git.browser.GithubWeb">
+            <url>https://github.com/flegrand/java</url>
+          </browser>
+          <submoduleCfg class="empty-list"/>
+          <extensions/>
+        </scm>
+        <properties/>
+        <actions>
+          <org.jenkinsci.plugins.github__branch__source.GitHubLink plugin="github-branch-source@2.0.5">
+            <iconClassName>icon-github-branch</iconClassName>
+            <url>https://github.com/flegrand/java/tree/openjdk-8-jdk</url>
+          </org.jenkinsci.plugins.github__branch__source.GitHubLink>
+          <jenkins.scm.api.metadata.ObjectMetadataAction plugin="scm-api@2.1.1">
+            <objectDisplayName>openjdk-8-jdk</objectDisplayName>
+            <objectUrl>https://github.com/flegrand/java/tree/openjdk-8-jdk</objectUrl>
+          </jenkins.scm.api.metadata.ObjectMetadataAction>
+        </actions>
+      </branch>
+    </org.jenkinsci.plugins.workflow.multibranch.BranchJobProperty>
+  </properties>
+  <definition class="org.jenkinsci.plugins.workflow.multibranch.SCMBinder" plugin="workflow-multibranch@2.14"/>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>

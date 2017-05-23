@@ -1,0 +1,35 @@
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/tomcat:8-build3
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/tomcat]
+5f98eff05d87: Preparing
+794700e7d6a5: Preparing
+8ea924ee3188: Preparing
+b7fffcf1dc3a: Preparing
+48c9f7a8d77c: Preparing
+e49dca012708: Preparing
+91887aaecacf: Preparing
+e49dca012708: Waiting
+e9d82f90351f: Preparing
+1dffd85c716f: Preparing
+91887aaecacf: Waiting
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+af316457ad9b: Waiting
+1dffd85c716f: Waiting
+e9d82f90351f: Waiting
+b51149973e6a: Preparing
+b51149973e6a: Waiting
+4c1d3a53ae10: Waiting
+8ea924ee3188: Pushed
+48c9f7a8d77c: Pushed
+794700e7d6a5: Pushed
+b7fffcf1dc3a: Pushed
+e9d82f90351f: Mounted from demo/java
+1dffd85c716f: Mounted from demo/app1
+af316457ad9b: Mounted from demo/app1
+4c1d3a53ae10: Mounted from demo/app1
+b51149973e6a: Mounted from demo/app1
+5f98eff05d87: Pushed
+e49dca012708: Pushed
+91887aaecacf: Pushed
+8-build3: digest: sha256:d73080799b291b6c79084ec398db86d7cccb93f6ab4e539332c5df07f30b90d6 size: 2835

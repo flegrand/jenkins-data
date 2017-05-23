@@ -1,0 +1,109 @@
+[php_5-S3KRGTVXIVMCZZA42SYB4NKVM6IK34AJ37SX22QNQNPDLEGRHSOQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/php:5-build1 .
+Sending build context to Docker daemon 73.22 kB
+Step 1/5 : FROM registry.demo.cloudcontrolled.net/demo/httpd:2.4
+ ---> d16a91c05d15
+Step 2/5 : RUN yum update -y && yum install -y php-5.4.16 php-mysql-5.4.16
+ ---> Running in 2f60dc33b15d
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirror.spreitzer.ch
+ * extras: mirror.spreitzer.ch
+ * updates: mirror.spreitzer.ch
+No packages marked for update
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirror.spreitzer.ch
+ * extras: mirror.spreitzer.ch
+ * updates: mirror.spreitzer.ch
+Resolving Dependencies
+--> Running transaction check
+---> Package php.x86_64 0:5.4.16-42.el7 will be installed
+--> Processing Dependency: php-common(x86-64) = 5.4.16-42.el7 for package: php-5.4.16-42.el7.x86_64
+--> Processing Dependency: php-cli(x86-64) = 5.4.16-42.el7 for package: php-5.4.16-42.el7.x86_64
+---> Package php-mysql.x86_64 0:5.4.16-42.el7 will be installed
+--> Processing Dependency: php-pdo(x86-64) = 5.4.16-42.el7 for package: php-mysql-5.4.16-42.el7.x86_64
+--> Processing Dependency: libmysqlclient.so.18(libmysqlclient_18)(64bit) for package: php-mysql-5.4.16-42.el7.x86_64
+--> Processing Dependency: libmysqlclient.so.18()(64bit) for package: php-mysql-5.4.16-42.el7.x86_64
+--> Running transaction check
+---> Package mariadb-libs.x86_64 1:5.5.52-1.el7 will be installed
+---> Package php-cli.x86_64 0:5.4.16-42.el7 will be installed
+--> Processing Dependency: libedit.so.0()(64bit) for package: php-cli-5.4.16-42.el7.x86_64
+---> Package php-common.x86_64 0:5.4.16-42.el7 will be installed
+--> Processing Dependency: libzip.so.2()(64bit) for package: php-common-5.4.16-42.el7.x86_64
+---> Package php-pdo.x86_64 0:5.4.16-42.el7 will be installed
+--> Running transaction check
+---> Package libedit.x86_64 0:3.0-12.20121213cvs.el7 will be installed
+---> Package libzip.x86_64 0:0.10.1-8.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package            Arch         Version                       Repository  Size
+================================================================================
+Installing:
+ php                x86_64       5.4.16-42.el7                 base       1.4 M
+ php-mysql          x86_64       5.4.16-42.el7                 base       101 k
+Installing for dependencies:
+ libedit            x86_64       3.0-12.20121213cvs.el7        base        92 k
+ libzip             x86_64       0.10.1-8.el7                  base        48 k
+ mariadb-libs       x86_64       1:5.5.52-1.el7                base       761 k
+ php-cli            x86_64       5.4.16-42.el7                 base       2.7 M
+ php-common         x86_64       5.4.16-42.el7                 base       564 k
+ php-pdo            x86_64       5.4.16-42.el7                 base        98 k
+
+Transaction Summary
+================================================================================
+Install  2 Packages (+6 Dependent packages)
+
+Total download size: 5.7 M
+Installed size: 22 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                               18 MB/s | 5.7 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : libzip-0.10.1-8.el7.x86_64                                   1/8 
+  Installing : php-common-5.4.16-42.el7.x86_64                              2/8 
+  Installing : php-pdo-5.4.16-42.el7.x86_64                                 3/8 
+  Installing : 1:mariadb-libs-5.5.52-1.el7.x86_64                           4/8 
+  Installing : libedit-3.0-12.20121213cvs.el7.x86_64                        5/8 
+  Installing : php-cli-5.4.16-42.el7.x86_64                                 6/8 
+  Installing : php-5.4.16-42.el7.x86_64                                     7/8 
+  Installing : php-mysql-5.4.16-42.el7.x86_64                               8/8 
+  Verifying  : php-cli-5.4.16-42.el7.x86_64                                 1/8 
+  Verifying  : php-mysql-5.4.16-42.el7.x86_64                               2/8 
+  Verifying  : libedit-3.0-12.20121213cvs.el7.x86_64                        3/8 
+  Verifying  : 1:mariadb-libs-5.5.52-1.el7.x86_64                           4/8 
+  Verifying  : php-5.4.16-42.el7.x86_64                                     5/8 
+  Verifying  : libzip-0.10.1-8.el7.x86_64                                   6/8 
+  Verifying  : php-pdo-5.4.16-42.el7.x86_64                                 7/8 
+  Verifying  : php-common-5.4.16-42.el7.x86_64                              8/8 
+
+Installed:
+  php.x86_64 0:5.4.16-42.el7          php-mysql.x86_64 0:5.4.16-42.el7         
+
+Dependency Installed:
+  libedit.x86_64 0:3.0-12.20121213cvs.el7     libzip.x86_64 0:0.10.1-8.el7      
+  mariadb-libs.x86_64 1:5.5.52-1.el7          php-cli.x86_64 0:5.4.16-42.el7    
+  php-common.x86_64 0:5.4.16-42.el7           php-pdo.x86_64 0:5.4.16-42.el7    
+
+Complete!
+ ---> 2b987a0a3c2a
+Removing intermediate container 2f60dc33b15d
+Step 3/5 : ADD run-httpd.sh /run-httpd.sh
+ ---> bcd612c38783
+Removing intermediate container b890d38420b3
+Step 4/5 : RUN chmod -v +x /run-httpd.sh
+ ---> Running in 11ddf840e0c7
+mode of '/run-httpd.sh' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+ ---> f4bc3ec130e9
+Removing intermediate container 11ddf840e0c7
+Step 5/5 : CMD /run-httpd.sh
+ ---> Running in aed580a3ec8c
+ ---> 7f1ed485e978
+Removing intermediate container aed580a3ec8c
+Successfully built 7f1ed485e978

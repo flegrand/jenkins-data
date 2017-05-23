@@ -1,0 +1,11 @@
+commit 3bc57d7cf8e675065493bb39567e6bd1120d44ca
+tree 4bd0e9b6f76f43a8ffac2e53dd122eda2524b4b1
+parent fb21e6e7057e4d70d95082acf53c6f41e5c25463
+author Frederic Legrand <f.legrand@neurones.pro> 2017-05-23 16:49:58 +0200
+committer Frederic Legrand <f.legrand@neurones.pro> 2017-05-23 16:49:58 +0200
+
+    jenkinsfile
+
+
+
+:100644 100644 4a0b31306c45e3c65b205df520eb3fe3e66f0b9a d504984c59586add8ada1b27ff8f164315b691ed M	Jenkinsfile

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-23 14:41:46.549 UTC</timestamp>
+  <original>
+    <name>java/openjdk-7-jdk</name>
+    <number>1</number>
+  </original>
+  <md5sum>bdbc82ddf9ee3448962b446ea0cd0051</md5sum>
+  <fileName>Docker image sha256:bdbc82ddf9ee3448962b446ea0cd00519592fdabd085612a44850c5650b85b7d</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.6">
+      <timestamp>1495550506547</timestamp>
+      <imageId>sha256:bdbc82ddf9ee3448962b446ea0cd00519592fdabd085612a44850c5650b85b7d</imageId>
+      <usages>
+        <entry>
+          <string>java/openjdk-7-jdk</string>
+          <ranges>1-4</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:1db9b793336c6430f012dcd07c47dca1fcd572b718f3ad9adec9c12568e71fa1</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+  </facets>
+</fingerprint>

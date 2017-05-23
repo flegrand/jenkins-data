@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning repository git@github.com:flegrand/java.git
+ > git init /var/jenkins_home/workspace/java_openjdk-7-jdk-XBFBUI44C6TM22UFDXFBCXPWAMZIDF7343PE2RKFQQVXIYYCA6YA # timeout=10
+Fetching upstream changes from git@github.com:flegrand/java.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/java.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:flegrand/java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:flegrand/java.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/java.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/java.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/openjdk-7-jdk^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/openjdk-7-jdk^{commit} # timeout=10
+Checking out Revision a600641e140ffba547b3b06f8303483de4571d86 (refs/remotes/origin/openjdk-7-jdk)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f a600641e140ffba547b3b06f8303483de4571d86
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b openjdk-7-jdk a600641e140ffba547b3b06f8303483de4571d86
+First time build. Skipping changelog.

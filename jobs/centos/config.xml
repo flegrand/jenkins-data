@@ -21,7 +21,7 @@
   </icon>
   <orphanedItemStrategy class="com.cloudbees.hudson.plugins.folder.computed.DefaultOrphanedItemStrategy" plugin="cloudbees-folder@6.0.4">
     <pruneDeadBranches>true</pruneDeadBranches>
-    <daysToKeep>0</daysToKeep>
+    <daysToKeep>1</daysToKeep>
     <numToKeep>3</numToKeep>
   </orphanedItemStrategy>
   <triggers>
@@ -34,7 +34,7 @@
     <data>
       <jenkins.branch.BranchSource>
         <source class="org.jenkinsci.plugins.github_branch_source.GitHubSCMSource" plugin="github-branch-source@2.0.5">
-          <id>bdad9197-ab71-481b-96cd-4e7930e08e48</id>
+          <id>9e50bf2b-f9bb-4760-b455-dc089f4da9c0</id>
           <checkoutCredentialsId>SAME</checkoutCredentialsId>
           <scanCredentialsId>flegrand_github</scanCredentialsId>
           <repoOwner>flegrand</repoOwner>

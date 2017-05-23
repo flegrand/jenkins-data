@@ -1,0 +1,22 @@
+Started by timer
+[Tue May 23 14:52:00 UTC 2017] Starting branch indexing...
+[8mha:////4OgWRHSVAiiBXUfq0S2OoLlGfTOBmJzcb0cxT7TyFvOIAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSM6WnRWQA57KihjgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+Looking up [8mha:////4HWCqeP/KnZFn9X372sS4eiEj8yiktiS4Ap+QryFLEh2AAAAoB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWFQyCgpKSi20tdPzyzJKE0C6srVT8tJTS9KzEvRTywoMAQAUyG33qUAAAA=[0mflegrand/app1
+
+  Getting remote pull requests...
+
+  0 pull requests were processed
+
+  Getting remote branches...
+
+    Checking branch [8mha:////4BiIal0Ttdx7k4+AmYf2YURF0f7PxPQ/lJK6jlfJR67WAAAAqx+LCAAAAAAAAP9djLENwjAQRY8gMgAlYgSUEw0FKBUNSBENExhy2AHHts4XFNZgDWgYgnHYgaB0vOa/5r/nB0aRYWqaMnqXHb2L3lK2uQViW7nLzgst8scrv4d3AskWUktOiylg2LAVGBdndVVoldO4F66cXrUMk7/cut9fDHoGCUAbOkkFZkYkxCWirsQ0h+5V48mSZuVKVCHMUZgIaxWF+AuXqu+1sQAAAA==[0mmaster
+      ‘Jenkinsfile’ found
+    Met criteria
+No changes detected: master (still at 0b5f7418a150b709e00c87072058a481c7d508d2)
+
+  1 branches were processed
+
+Done examining flegrand/app1
+
+[Tue May 23 14:52:02 UTC 2017] Finished branch indexing. Indexing took 1.9 sec
+Finished: SUCCESS

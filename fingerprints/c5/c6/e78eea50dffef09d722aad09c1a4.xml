@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-23 14:48:51.228 UTC</timestamp>
+  <md5sum>c5c6e78eea50dffef09d722aad09c1a4</md5sum>
+  <fileName>Credential id=flegrand_github name=flegrand/******</fileName>
+  <usages>
+    <entry>
+      <string>java/openjdk-8-jdk</string>
+      <ranges>9</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

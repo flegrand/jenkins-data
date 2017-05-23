@@ -1,0 +1,15 @@
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:flegrand/tomcat.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/tomcat.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/tomcat.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/8^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/8^{commit} # timeout=10
+Checking out Revision 7f874f5df316b44a136a00f8d32e56da31d2185f (refs/remotes/origin/8)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7f874f5df316b44a136a00f8d32e56da31d2185f
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b 8 7f874f5df316b44a136a00f8d32e56da31d2185f
+First time build. Skipping changelog.

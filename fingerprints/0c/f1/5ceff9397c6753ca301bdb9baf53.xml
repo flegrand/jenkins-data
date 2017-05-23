@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-23 14:10:59.278 UTC</timestamp>
+  <md5sum>0cf15ceff9397c6753ca301bdb9baf53</md5sum>
+  <fileName>Credential id=jenkins name=jenkins/******</fileName>
+  <usages>
+    <entry>
+      <string>centos/7</string>
+      <ranges>1-12</ranges>
+    </entry>
+    <entry>
+      <string>java/openjdk-8-jdk</string>
+      <ranges>1-13</ranges>
+    </entry>
+    <entry>
+      <string>tomcat/8</string>
+      <ranges>1-8</ranges>
+    </entry>
+    <entry>
+      <string>httpd/2.4</string>
+      <ranges>1-7</ranges>
+    </entry>
+    <entry>
+      <string>php/5</string>
+      <ranges>1-8</ranges>
+    </entry>
+    <entry>
+      <string>app1/master</string>
+      <ranges>1-7</ranges>
+    </entry>
+    <entry>
+      <string>java/openjdk-7-jdk</string>
+      <ranges>1-10</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

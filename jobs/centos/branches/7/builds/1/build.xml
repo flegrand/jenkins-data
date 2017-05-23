@@ -14,7 +14,7 @@
         <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.0.5">
           <name>7</name>
         </head>
-        <hash>3a8644f159dd073bd77d9053764b39b74d576bd5</hash>
+        <hash>fb21e6e7057e4d70d95082acf53c6f41e5c25463</hash>
       </revision>
     </jenkins.scm.api.SCMRevisionAction>
     <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.8">
@@ -23,24 +23,69 @@
     <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.31">
       <env class="tree-map"/>
     </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
-    <jenkins.model.InterruptedBuildAction>
-      <causes class="com.google.common.collect.ImmutableList">
-        <jenkins.model.CauseOfInterruption_-UserInterruption>
-          <user>admin</user>
-        </jenkins.model.CauseOfInterruption_-UserInterruption>
-      </causes>
-    </jenkins.model.InterruptedBuildAction>
+    <hudson.plugins.git.util.BuildData plugin="git@3.3.0">
+      <buildsByBranchName>
+        <entry>
+          <string>refs/remotes/origin/7</string>
+          <hudson.plugins.git.util.Build>
+            <marked plugin="git-client@2.4.5">
+              <sha1>fb21e6e7057e4d70d95082acf53c6f41e5c25463</sha1>
+              <branches class="list">
+                <hudson.plugins.git.Branch>
+                  <sha1 reference="../../../sha1"/>
+                  <name>refs/remotes/origin/7</name>
+                </hudson.plugins.git.Branch>
+              </branches>
+            </marked>
+            <revision reference="../marked"/>
+            <hudsonBuildNumber>1</hudsonBuildNumber>
+          </hudson.plugins.git.util.Build>
+        </entry>
+      </buildsByBranchName>
+      <lastBuild reference="../buildsByBranchName/entry/hudson.plugins.git.util.Build"/>
+      <remoteUrls>
+        <string>git@github.com:flegrand/centos.git</string>
+      </remoteUrls>
+    </hudson.plugins.git.util.BuildData>
+    <hudson.plugins.git.GitTagAction plugin="git@3.3.0">
+      <tags class="hudson.util.CopyOnWriteMap$Tree">
+        <entry>
+          <string>refs/remotes/origin/7</string>
+          <list/>
+        </entry>
+      </tags>
+      <ws>/var/jenkins_home/workspace/centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ</ws>
+    </hudson.plugins.git.GitTagAction>
+    <org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState plugin="workflow-scm-step@2.4">
+      <revisionStates>
+        <entry>
+          <string>git git@github.com:flegrand/centos.git</string>
+          <hudson.scm.SCMRevisionState_-None/>
+        </entry>
+      </revisionStates>
+    </org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction plugin="docker-commons@1.6">
+      <imageIDs>
+        <string>sha256:8140d0c64310d4e290bf3938757837dbb8f806acba0cb3f6a852558074345348</string>
+        <string>sha256:1db9b793336c6430f012dcd07c47dca1fcd572b718f3ad9adec9c12568e71fa1</string>
+      </imageIDs>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerFingerprintAction>
+    <org.jenkinsci.plugins.docker.workflow.ImageAction plugin="docker-workflow@1.11">
+      <names class="sorted-set">
+        <string>centos:7</string>
+      </names>
+    </org.jenkinsci.plugins.docker.workflow.ImageAction>
   </actions>
-  <queueId>2</queueId>
-  <timestamp>1495545735558</timestamp>
-  <startTime>1495545735562</startTime>
-  <result>ABORTED</result>
-  <duration>26041</duration>
+  <queueId>87</queueId>
+  <timestamp>1495550383075</timestamp>
+  <startTime>1495550383076</startTime>
+  <result>FAILURE</result>
+  <duration>7766</duration>
   <keepLog>false</keepLog>
   <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
-    <result>ABORTED</result>
+    <result>FAILURE</result>
     <script>def PROJECT=&apos;centos&apos;
-def GIT_URL=&apos;http://jenkins@git.demo.cloudcontrolled.net:8800/demo/&apos;+PROJECT+&apos;.git&apos;
+def GIT_URL=&apos;git@github.com:flegrand/&apos;+PROJECT+&apos;.git&apos;
 def REGISTRY_URL=&apos;registry.demo.cloudcontrolled.net/demo/&apos;+PROJECT
 
 node {
@@ -62,28 +107,56 @@ node {
     <timings class="map">
       <entry>
         <string>flowNode</string>
-        <long>40471420</long>
+        <long>34724754</long>
       </entry>
       <entry>
         <string>classLoad</string>
-        <long>1070563016</long>
+        <long>104483488</long>
       </entry>
       <entry>
         <string>run</string>
-        <long>658902784</long>
+        <long>294637844</long>
       </entry>
       <entry>
         <string>parse</string>
-        <long>718571367</long>
+        <long>39113777</long>
       </entry>
       <entry>
         <string>saveProgram</string>
-        <long>293162025</long>
+        <long>30169613</long>
       </entry>
     </timings>
     <sandbox>true</sandbox>
-    <iota>8</iota>
-    <head>1:8</head>
+    <iota>24</iota>
+    <head>1:24</head>
   </execution>
-  <checkouts class="hudson.util.PersistedList"/>
+  <checkouts class="hudson.util.PersistedList">
+    <org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+      <scm class="hudson.plugins.git.GitSCM" plugin="git@3.3.0">
+        <configVersion>2</configVersion>
+        <userRemoteConfigs>
+          <hudson.plugins.git.UserRemoteConfig>
+            <url>git@github.com:flegrand/centos.git</url>
+            <credentialsId>jenkins</credentialsId>
+          </hudson.plugins.git.UserRemoteConfig>
+        </userRemoteConfigs>
+        <branches class="singleton-list">
+          <hudson.plugins.git.BranchSpec>
+            <name>*/7</name>
+          </hudson.plugins.git.BranchSpec>
+        </branches>
+        <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+        <submoduleCfg class="empty-list"/>
+        <extensions>
+          <hudson.plugins.git.extensions.impl.LocalBranch>
+            <localBranch>7</localBranch>
+          </hudson.plugins.git.extensions.impl.LocalBranch>
+        </extensions>
+      </scm>
+      <node></node>
+      <workspace>/var/jenkins_home/workspace/centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ</workspace>
+      <changelogFile>/var/jenkins_home/jobs/centos/branches/7/builds/1/changelog0.xml</changelogFile>
+      <pollingBaseline class="hudson.scm.SCMRevisionState$None" reference="../../../actions/org.jenkinsci.plugins.workflow.steps.scm.MultiSCMRevisionState/revisionStates/entry/hudson.scm.SCMRevisionState_-None"/>
+    </org.jenkinsci.plugins.workflow.job.WorkflowRun_-SCMCheckout>
+  </checkouts>
 </flow-build>

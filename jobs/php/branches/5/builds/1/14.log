@@ -1,0 +1,23 @@
+[php_5-S3KRGTVXIVMCZZA42SYB4NKVM6IK34AJ37SX22QNQNPDLEGRHSOQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/php:5-build1
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/php]
+502b70e2e6b1: Preparing
+7c77d0dafeb6: Preparing
+8232c90cc85c: Preparing
+4e32ed69300c: Preparing
+1dffd85c716f: Preparing
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+b51149973e6a: Preparing
+af316457ad9b: Waiting
+4c1d3a53ae10: Waiting
+b51149973e6a: Waiting
+4e32ed69300c: Mounted from demo/httpd
+1dffd85c716f: Mounted from demo/httpd
+502b70e2e6b1: Pushed
+af316457ad9b: Mounted from demo/httpd
+7c77d0dafeb6: Pushed
+4c1d3a53ae10: Mounted from demo/httpd
+b51149973e6a: Mounted from demo/httpd
+8232c90cc85c: Pushed
+5-build1: digest: sha256:5219104d5c8c8d5b367c7c75e36e595cc8a5ec2b85f7ac556fa66993aff4a5b7 size: 1998

@@ -1,0 +1,14 @@
+[java_openjdk-8-jdk-LH26BJQZB7KOG4ZDCRVMLHRHHA2CAGKGGFTPNOW6N2733DKH2W3A] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/java:openjdk-8-jdk
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/java]
+e9d82f90351f: Preparing
+1dffd85c716f: Preparing
+af316457ad9b: Preparing
+4c1d3a53ae10: Preparing
+b51149973e6a: Preparing
+4c1d3a53ae10: Layer already exists
+1dffd85c716f: Layer already exists
+e9d82f90351f: Layer already exists
+af316457ad9b: Layer already exists
+b51149973e6a: Layer already exists
+openjdk-8-jdk: digest: sha256:c4392a4e40357d5f295fe8fb6542d6ec56272347319ca00eb175e1fb502656ec size: 1372

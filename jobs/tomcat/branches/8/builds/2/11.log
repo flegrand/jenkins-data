@@ -1,0 +1,5 @@
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/tomcat:8-build2 .
+Sending build context to Docker daemon 91.65 kB
+Step 1/18 : FROM registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk
+repository registry.demo.cloudcontrolled.net/demo/java not found: does not exist or no pull access
