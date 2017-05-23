@@ -1,0 +1,6 @@
+Cloning the remote Git repository
+Cloning repository http://jenkins@git.demo.cloudcontrolled.net:8800/demo/centos.git
+ > git init /var/jenkins_home/workspace/centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ # timeout=10
+Fetching upstream changes from http://jenkins@git.demo.cloudcontrolled.net:8800/demo/centos.git
+ > git --version # timeout=10
+ > git fetch --tags --progress http://jenkins@git.demo.cloudcontrolled.net:8800/demo/centos.git +refs/heads/*:refs/remotes/origin/*

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@2.11">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <jenkins.branch.BranchIndexingCause plugin="branch-api@2.0.9"/>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <jenkins.scm.api.SCMRevisionAction plugin="scm-api@2.1.1">
+      <revision class="jenkins.plugins.git.AbstractGitSCMSource$SCMRevisionImpl" plugin="git@3.3.0">
+        <head class="org.jenkinsci.plugins.github_branch_source.BranchSCMHead" plugin="github-branch-source@2.0.5">
+          <name>7</name>
+        </head>
+        <hash>3a8644f159dd073bd77d9053764b39b74d576bd5</hash>
+      </revision>
+    </jenkins.scm.api.SCMRevisionAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="workflow-cps-global-lib@2.8">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.workflow.cps.EnvActionImpl plugin="workflow-cps@2.31">
+      <env class="tree-map"/>
+    </org.jenkinsci.plugins.workflow.cps.EnvActionImpl>
+    <jenkins.model.InterruptedBuildAction>
+      <causes class="com.google.common.collect.ImmutableList">
+        <jenkins.model.CauseOfInterruption_-UserInterruption>
+          <user>admin</user>
+        </jenkins.model.CauseOfInterruption_-UserInterruption>
+      </causes>
+    </jenkins.model.InterruptedBuildAction>
+  </actions>
+  <queueId>2</queueId>
+  <timestamp>1495545735558</timestamp>
+  <startTime>1495545735562</startTime>
+  <result>ABORTED</result>
+  <duration>26041</duration>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>ABORTED</result>
+    <script>def PROJECT=&apos;centos&apos;
+def GIT_URL=&apos;http://jenkins@git.demo.cloudcontrolled.net:8800/demo/&apos;+PROJECT+&apos;.git&apos;
+def REGISTRY_URL=&apos;registry.demo.cloudcontrolled.net/demo/&apos;+PROJECT
+
+node {
+        git branch: env.BRANCH_NAME, credentialsId: &apos;jenkins&apos;, url: GIT_URL
+
+        stage &quot;Build and Push Docker image&quot;
+        withDockerRegistry(registry: [credentialsId: &apos;jenkins&apos;]) {
+                withDockerServer(server: [uri: &apos;unix:///var/run/docker.sock&apos;]) {
+                        dockerImg = docker.build(REGISTRY_URL+&apos;:&apos;+env.BRANCH_NAME+&apos;-build&apos;+env.BUILD_NUMBER,&apos;.&apos;)
+                        dockerImg.push()
+                        dockerImg.push(env.BRANCH_NAME)
+                }
+        }
+
+        // Launch dependant jobs
+        build job: &apos;httpd/2.4&apos;, wait: false
+}</script>
+    <loadedScripts class="map"/>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>40471420</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>1070563016</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>658902784</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>718571367</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>293162025</long>
+      </entry>
+    </timings>
+    <sandbox>true</sandbox>
+    <iota>8</iota>
+    <head>1:8</head>
+  </execution>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>
