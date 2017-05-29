@@ -1,0 +1,57 @@
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/tomcat:8-build12 .
+Sending build context to Docker daemon 91.65 kB
+Step 1/18 : FROM registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk
+ ---> 98bddd1f587c
+Step 2/18 : RUN yum -y update &&  yum -y install wget &&  yum -y install tar
+ ---> Using cache
+ ---> 87bbaaf139f9
+Step 3/18 : ENV JAVA_HOME /
+ ---> Using cache
+ ---> ed21d31a6d79
+Step 4/18 : ENV CATALINA_HOME /opt/tomcat
+ ---> Using cache
+ ---> 3a78269b5f10
+Step 5/18 : ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin:$CATALINA_HOME/scripts
+ ---> Using cache
+ ---> c188599c65ca
+Step 6/18 : ENV TOMCAT_MAJOR 8
+ ---> Using cache
+ ---> 6547c2c203bb
+Step 7/18 : ENV TOMCAT_VERSION 8.5.15
+ ---> Using cache
+ ---> dd4563cb6eb4
+Step 8/18 : RUN wget http://apache.crihan.fr/dist/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz &&  tar -xvf apache-tomcat-${TOMCAT_VERSION}.tar.gz &&  rm apache-tomcat*.tar.gz &&  mv apache-tomcat* ${CATALINA_HOME}
+ ---> Using cache
+ ---> 1961d9b6090c
+Step 9/18 : RUN chmod +x ${CATALINA_HOME}/bin/*sh
+ ---> Using cache
+ ---> 7fd545f7e47c
+Step 10/18 : ADD create_admin_user.sh $CATALINA_HOME/scripts/create_admin_user.sh
+ ---> Using cache
+ ---> cd05214be065
+Step 11/18 : ADD tomcat.sh $CATALINA_HOME/scripts/tomcat.sh
+ ---> Using cache
+ ---> 4053b681d676
+Step 12/18 : RUN chmod +x $CATALINA_HOME/scripts/*.sh
+ ---> Using cache
+ ---> 36e7f80e7eb1
+Step 13/18 : RUN groupadd -r tomcat &&  useradd -g tomcat -d ${CATALINA_HOME} -s /sbin/nologin  -c "Tomcat user" tomcat &&  chown -R tomcat:tomcat ${CATALINA_HOME}
+ ---> Using cache
+ ---> 44eca8de35f9
+Step 14/18 : WORKDIR /opt/tomcat
+ ---> Using cache
+ ---> 63d48d58a4c4
+Step 15/18 : EXPOSE 8080
+ ---> Using cache
+ ---> f25af18980f1
+Step 16/18 : EXPOSE 8009
+ ---> Using cache
+ ---> 593eb0596d7d
+Step 17/18 : USER tomcat
+ ---> Using cache
+ ---> aa6271b2118c
+Step 18/18 : CMD tomcat.sh
+ ---> Using cache
+ ---> e0b3d78921d2
+Successfully built e0b3d78921d2

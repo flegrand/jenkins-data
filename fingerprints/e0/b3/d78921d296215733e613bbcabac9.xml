@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-29 09:18:35.574 UTC</timestamp>
+  <original>
+    <name>tomcat/8</name>
+    <number>11</number>
+  </original>
+  <md5sum>e0b3d78921d296215733e613bbcabac9</md5sum>
+  <fileName>Docker image sha256:e0b3d78921d296215733e613bbcabac936ee9b6f2fd5b72470eb1f07582f9344</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.6">
+      <timestamp>1496049515572</timestamp>
+      <imageId>sha256:e0b3d78921d296215733e613bbcabac936ee9b6f2fd5b72470eb1f07582f9344</imageId>
+      <usages>
+        <entry>
+          <string>tomcat/8</string>
+          <ranges>11-14</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:98bddd1f587ccb71a94d6c988c9782c3f47f0f33171033ff08f5891a7e7ec1c5</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+  </facets>
+</fingerprint>

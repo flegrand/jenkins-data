@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning repository git@github.com:flegrand/app1.git
+ > git init /var/jenkins_home/workspace/app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ # timeout=10
+Fetching upstream changes from git@github.com:flegrand/app1.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/app1.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:flegrand/app1.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:flegrand/app1.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/app1.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/app1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0b5f7418a150b709e00c87072058a481c7d508d2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0b5f7418a150b709e00c87072058a481c7d508d2
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b master 0b5f7418a150b709e00c87072058a481c7d508d2
+ > git rev-list 0b5f7418a150b709e00c87072058a481c7d508d2 # timeout=10

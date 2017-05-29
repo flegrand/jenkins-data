@@ -1,0 +1,8 @@
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/centos:7-build20
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/centos]
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+unauthorized: unable to get identity token from client token: invalid_grant: no such account for refresh token: id:241fa559-583d-4c42-9c08-aa9a34b993be

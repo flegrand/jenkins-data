@@ -1,0 +1,141 @@
+Started by upstream project "[8mha:////4FJUfeD1fP5lnT41u6+WM1V+DjopoLjXW4Q4I3bSUumCAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/az8JP2CjAIwbaoPAG7fBAbEAAAA[0mphp/5" build number [8mha:////4NndcIwGgKv1gU21Rg6Ur+5sEwWycRAWV+nWDpDI5EsnAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JP2CjAIwbapvaAwA+jMvi8YAAAA=[0m13
+originally caused by:
+ Started by upstream project "[8mha:////4FDmGoEokwDTREVmpTJQDAvxjuVGVtCF7LxRpZ8H0XrGAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/az8JP2MkpKCFDDLSM9EHwDU5lBvyAAAAA==[0mhttpd/2.4" build number [8mha:////4FCfUOBPPG23RkLBJCJ4m6oQSOjWnbcShyNiFj2W6TTdAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JP2MkpKCFDDLSM9E39AUAAyGHRbKAAAA[0m15
+ originally caused by:
+  Started by upstream project "[8mha:////4PAnzMAyE5ETM/PziOkZVzDtxC9mgozdq5MFXkd66DcJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6WflJ+smpeSX5xWCmuT4A/SSgSMcAAAA=[0mcentos/7" build number [8mha:////4JKGRMnuWZO4ArqWrfHtdO5BeUGvJkY1P6O+vD7IDcv5AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP3k1LyS/GIw01zfyAQAzXQH7ckAAAA=[0m24
+  originally caused by:
+   Started by user [8mha:////4KFkUOz9PG7gVaXzVl+ohEZItgngNhbDRlS7LpG2kpwFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Started by upstream project "[8mha:////4FJUfeD1fP5lnT41u6+WM1V+DjopoLjXW4Q4I3bSUumCAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/az8JP2CjAIwbaoPAG7fBAbEAAAA[0mphp/5" build number [8mha:////4MW8pP5X1QbUYH1XPJYIyxO5hyLSrR34+ostVMoVXYgHAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZB/az8JP2CjAIwbapvaAIAWaZLFcYAAAA=[0m14
+originally caused by:
+ Started by upstream project "[8mha:////4FDmGoEokwDTREVmpTJQDAvxjuVGVtCF7LxRpZ8H0XrGAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZh/az8JP2MkpKCFDDLSM9EHwDU5lBvyAAAAA==[0mhttpd/2.4" build number [8mha:////4L7OiFIzij6r7wDdm9aedTmLON09AYvSMqlXo8f3ypVZAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZR/az8JP2MkpKCFDDLSM9E39AMALbXFI/KAAAA[0m16
+ originally caused by:
+  Started by upstream project "[8mha:////4PAnzMAyE5ETM/PziOkZVzDtxC9mgozdq5MFXkd66DcJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6WflJ+smpeSX5xWCmuT4A/SSgSMcAAAA=[0mcentos/7" build number [8mha:////4EnPcpXaHTnjitAJFAVFCTHP+Ngyq+uAHrLKRILi2IHuAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP3k1LyS/GIw01zfyBQAW0QAmskAAAA=[0m25
+  originally caused by:
+   Started by user [8mha:////4KFkUOz9PG7gVaXzVl+ohEZItgngNhbDRlS7LpG2kpwFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+[8mha:////4COT3t4bpvu7Vc1akG3rDHwuQ1yXfmG9SboK4kbHBTsrAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRMcENuKwDM2MSpjgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+Obtained Jenkinsfile from 0b5f7418a150b709e00c87072058a481c7d508d2
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:flegrand/app1.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/app1.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/app1.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 0b5f7418a150b709e00c87072058a481c7d508d2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 0b5f7418a150b709e00c87072058a481c7d508d2
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D master # timeout=10
+ > git checkout -b master 0b5f7418a150b709e00c87072058a481c7d508d2
+ > git rev-list 0b5f7418a150b709e00c87072058a481c7d508d2 # timeout=10
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage (Build and Push Docker image)
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Build and Push Docker image
+Proceeding
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerRegistry
+Wrote authentication to /var/jenkins_home/.docker/config.json
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/app1:master-build12 .
+Sending build context to Docker daemon 1.822 MB
+Step 1/2 : FROM registry.demo.cloudcontrolled.net/demo/php:5
+ ---> f62bc60d2476
+Step 2/2 : ADD web /var/www/html
+ ---> Using cache
+ ---> a6e1b0911726
+Successfully built a6e1b0911726
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dockerFingerprintFrom
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/app1:master-build12 registry.demo.cloudcontrolled.net/demo/app1:master-build12
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/app1:master-build12 registry.demo.cloudcontrolled.net/demo/app1:master-build12
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/app1:master-build12
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/app1]
+44c1322edc96: Preparing
+459499dbb589: Preparing
+04801a79bb2d: Preparing
+ee4ec915d241: Preparing
+d18bce29a804: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+efd1ef41f34d: Waiting
+8cb1b4049e53: Waiting
+45b90922d1dd: Waiting
+b51149973e6a: Waiting
+d18bce29a804: Layer already exists
+44c1322edc96: Layer already exists
+ee4ec915d241: Layer already exists
+04801a79bb2d: Layer already exists
+459499dbb589: Layer already exists
+efd1ef41f34d: Layer already exists
+8cb1b4049e53: Layer already exists
+45b90922d1dd: Layer already exists
+b51149973e6a: Layer already exists
+master-build12: digest: sha256:80e077dd55a7742e501f1d6fc428ccc20a6dd5d6c21e752bd36b0510ebd297bb size: 2208
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/app1:master-build12 registry.demo.cloudcontrolled.net/demo/app1:master
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/app1:master-build12 registry.demo.cloudcontrolled.net/demo/app1:master
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/app1:master
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/app1]
+44c1322edc96: Preparing
+459499dbb589: Preparing
+04801a79bb2d: Preparing
+ee4ec915d241: Preparing
+d18bce29a804: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+efd1ef41f34d: Waiting
+8cb1b4049e53: Waiting
+45b90922d1dd: Waiting
+b51149973e6a: Waiting
+ee4ec915d241: Layer already exists
+44c1322edc96: Layer already exists
+efd1ef41f34d: Layer already exists
+459499dbb589: Layer already exists
+d18bce29a804: Layer already exists
+04801a79bb2d: Layer already exists
+8cb1b4049e53: Layer already exists
+b51149973e6a: Layer already exists
+45b90922d1dd: Layer already exists
+master: digest: sha256:80e077dd55a7742e501f1d6fc428ccc20a6dd5d6c21e752bd36b0510ebd297bb size: 2208
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerRegistry
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage (Deploy)
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Deploy
+Proceeding
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ bash deploy.sh --project app1 --tag master-build12
+Updating service app1_web (id: 5kfk0y1gjcseeetkb050ys69i)
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

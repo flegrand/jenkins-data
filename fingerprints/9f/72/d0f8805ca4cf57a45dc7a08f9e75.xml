@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-29 09:17:31.410 UTC</timestamp>
+  <original>
+    <name>httpd/2.4</name>
+    <number>12</number>
+  </original>
+  <md5sum>9f72d0f8805ca4cf57a45dc7a08f9e75</md5sum>
+  <fileName>Docker image sha256:9f72d0f8805ca4cf57a45dc7a08f9e75e02c177f656be513ab42ae1e55060644</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.6">
+      <timestamp>1496049451407</timestamp>
+      <imageId>sha256:9f72d0f8805ca4cf57a45dc7a08f9e75e02c177f656be513ab42ae1e55060644</imageId>
+      <usages>
+        <entry>
+          <string>httpd/2.4</string>
+          <ranges>12-16</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:437d66d45342622100839c5e484fe0178eec515f748380d0d7e9e08866797cae</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet plugin="docker-commons@1.6">
+      <timestamp>1496049482833</timestamp>
+      <imageId>sha256:9f72d0f8805ca4cf57a45dc7a08f9e75e02c177f656be513ab42ae1e55060644</imageId>
+      <usages>
+        <entry>
+          <string>php/5</string>
+          <ranges>11-14</ranges>
+        </entry>
+      </usages>
+      <descendantImageIds class="sorted-set">
+        <string>sha256:f62bc60d24764771a71aa27f455d64c5fa530b5957a7b44c460f600ab501bb2c</string>
+      </descendantImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet>
+  </facets>
+</fingerprint>

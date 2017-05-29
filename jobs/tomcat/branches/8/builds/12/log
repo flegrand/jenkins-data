@@ -1,0 +1,200 @@
+Started by upstream project "[8mha:////4N7Gbmprygfd62thpkO+AH53TJx8cKvYEUbdZZfHpxmiAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/az8JH2wOSBGfkFqXlZKtq65LpDUBwC1RhpM0QAAAA==[0mjava/openjdk-7-jdk" build number [8mha:////4Di7Y6kg8S46KZQrxhOFo/O1Wd9UlpC8t3va0Uy2RbSiAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgY5/az8JH2wOSBGfkFqXlZKtq65LpDUNzQHAAGKTQHTAAAA[0m17
+originally caused by:
+ Started by upstream project "[8mha:////4PAnzMAyE5ETM/PziOkZVzDtxC9mgozdq5MFXkd66DcJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6WflJ+smpeSX5xWCmuT4A/SSgSMcAAAA=[0mcentos/7" build number [8mha:////4JllGXQ5kGpW8LkKyO9oJcasbYGj1C41J0lxQRFruXxeAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP3k1LyS/GIw01zfyBgAbuFjc8kAAAA=[0m23
+ originally caused by:
+  Started by user [8mha:////4KFkUOz9PG7gVaXzVl+ohEZItgngNhbDRlS7LpG2kpwFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+[8mha:////4NHmKwakkysWDmT/JiAhWwmHfZ8luclEm9HSQoSgRxOgAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRMcP1HUwC7mskBjgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+Obtained Jenkinsfile from 7f874f5df316b44a136a00f8d32e56da31d2185f
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+Cloning the remote Git repository
+Cloning repository git@github.com:flegrand/tomcat.git
+ > git init /var/jenkins_home/workspace/tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2 # timeout=10
+Fetching upstream changes from git@github.com:flegrand/tomcat.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/tomcat.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:flegrand/tomcat.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:flegrand/tomcat.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/tomcat.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/tomcat.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/8^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/8^{commit} # timeout=10
+Checking out Revision 7f874f5df316b44a136a00f8d32e56da31d2185f (refs/remotes/origin/8)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7f874f5df316b44a136a00f8d32e56da31d2185f
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b 8 7f874f5df316b44a136a00f8d32e56da31d2185f
+ > git rev-list 7f874f5df316b44a136a00f8d32e56da31d2185f # timeout=10
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage (Build and Push Docker image)
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Build and Push Docker image
+Proceeding
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerRegistry
+Wrote authentication to /var/jenkins_home/.docker/config.json
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/tomcat:8-build12 .
+Sending build context to Docker daemon 91.65 kB
+Step 1/18 : FROM registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk
+ ---> 98bddd1f587c
+Step 2/18 : RUN yum -y update &&  yum -y install wget &&  yum -y install tar
+ ---> Using cache
+ ---> 87bbaaf139f9
+Step 3/18 : ENV JAVA_HOME /
+ ---> Using cache
+ ---> ed21d31a6d79
+Step 4/18 : ENV CATALINA_HOME /opt/tomcat
+ ---> Using cache
+ ---> 3a78269b5f10
+Step 5/18 : ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin:$CATALINA_HOME/scripts
+ ---> Using cache
+ ---> c188599c65ca
+Step 6/18 : ENV TOMCAT_MAJOR 8
+ ---> Using cache
+ ---> 6547c2c203bb
+Step 7/18 : ENV TOMCAT_VERSION 8.5.15
+ ---> Using cache
+ ---> dd4563cb6eb4
+Step 8/18 : RUN wget http://apache.crihan.fr/dist/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz &&  tar -xvf apache-tomcat-${TOMCAT_VERSION}.tar.gz &&  rm apache-tomcat*.tar.gz &&  mv apache-tomcat* ${CATALINA_HOME}
+ ---> Using cache
+ ---> 1961d9b6090c
+Step 9/18 : RUN chmod +x ${CATALINA_HOME}/bin/*sh
+ ---> Using cache
+ ---> 7fd545f7e47c
+Step 10/18 : ADD create_admin_user.sh $CATALINA_HOME/scripts/create_admin_user.sh
+ ---> Using cache
+ ---> cd05214be065
+Step 11/18 : ADD tomcat.sh $CATALINA_HOME/scripts/tomcat.sh
+ ---> Using cache
+ ---> 4053b681d676
+Step 12/18 : RUN chmod +x $CATALINA_HOME/scripts/*.sh
+ ---> Using cache
+ ---> 36e7f80e7eb1
+Step 13/18 : RUN groupadd -r tomcat &&  useradd -g tomcat -d ${CATALINA_HOME} -s /sbin/nologin  -c "Tomcat user" tomcat &&  chown -R tomcat:tomcat ${CATALINA_HOME}
+ ---> Using cache
+ ---> 44eca8de35f9
+Step 14/18 : WORKDIR /opt/tomcat
+ ---> Using cache
+ ---> 63d48d58a4c4
+Step 15/18 : EXPOSE 8080
+ ---> Using cache
+ ---> f25af18980f1
+Step 16/18 : EXPOSE 8009
+ ---> Using cache
+ ---> 593eb0596d7d
+Step 17/18 : USER tomcat
+ ---> Using cache
+ ---> aa6271b2118c
+Step 18/18 : CMD tomcat.sh
+ ---> Using cache
+ ---> e0b3d78921d2
+Successfully built e0b3d78921d2
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dockerFingerprintFrom
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/tomcat:8-build12 registry.demo.cloudcontrolled.net/demo/tomcat:8-build12
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/tomcat:8-build12 registry.demo.cloudcontrolled.net/demo/tomcat:8-build12
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/tomcat:8-build12
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/tomcat]
+01fe1bd05f6d: Preparing
+88bec548d7e6: Preparing
+0e684473e77a: Preparing
+4d0e43683a3f: Preparing
+b161d24f687c: Preparing
+681738188e26: Preparing
+f36ea2536488: Preparing
+b719af8eed05: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+efd1ef41f34d: Waiting
+8cb1b4049e53: Waiting
+45b90922d1dd: Waiting
+b51149973e6a: Waiting
+b161d24f687c: Waiting
+681738188e26: Waiting
+b719af8eed05: Waiting
+4d0e43683a3f: Layer already exists
+0e684473e77a: Layer already exists
+88bec548d7e6: Layer already exists
+01fe1bd05f6d: Layer already exists
+efd1ef41f34d: Layer already exists
+b161d24f687c: Layer already exists
+681738188e26: Layer already exists
+b719af8eed05: Layer already exists
+8cb1b4049e53: Layer already exists
+b51149973e6a: Layer already exists
+45b90922d1dd: Layer already exists
+f36ea2536488: Pushed
+8-build12: digest: sha256:68f66d8fb259d80a07d68c5ef53b8fce2e6bf3a9bf19e0c52298674c21cfaba7 size: 2835
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/tomcat:8-build12 registry.demo.cloudcontrolled.net/demo/tomcat:8
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/tomcat:8-build12 registry.demo.cloudcontrolled.net/demo/tomcat:8
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/tomcat:8
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/tomcat]
+01fe1bd05f6d: Preparing
+88bec548d7e6: Preparing
+0e684473e77a: Preparing
+4d0e43683a3f: Preparing
+b161d24f687c: Preparing
+681738188e26: Preparing
+f36ea2536488: Preparing
+b719af8eed05: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+01fe1bd05f6d: Waiting
+88bec548d7e6: Waiting
+0e684473e77a: Waiting
+4d0e43683a3f: Waiting
+b161d24f687c: Waiting
+681738188e26: Waiting
+f36ea2536488: Waiting
+b719af8eed05: Waiting
+efd1ef41f34d: Waiting
+8cb1b4049e53: Waiting
+45b90922d1dd: Waiting
+b51149973e6a: Waiting
+88bec548d7e6: Layer already exists
+4d0e43683a3f: Layer already exists
+0e684473e77a: Layer already exists
+01fe1bd05f6d: Layer already exists
+b161d24f687c: Layer already exists
+681738188e26: Layer already exists
+b719af8eed05: Layer already exists
+f36ea2536488: Layer already exists
+8cb1b4049e53: Layer already exists
+efd1ef41f34d: Layer already exists
+45b90922d1dd: Layer already exists
+b51149973e6a: Layer already exists
+8: digest: sha256:68f66d8fb259d80a07d68c5ef53b8fce2e6bf3a9bf19e0c52298674c21cfaba7 size: 2835
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerRegistry
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

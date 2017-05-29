@@ -1,0 +1,14 @@
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/httpd:2.4
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/httpd]
+d18bce29a804: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+efd1ef41f34d: Layer already exists
+b51149973e6a: Layer already exists
+45b90922d1dd: Layer already exists
+8cb1b4049e53: Layer already exists
+d18bce29a804: Layer already exists
+2.4: digest: sha256:4aebdca8ddef7ce7a06e239d518d22816a22c4394c59ee29204a8def02718ce5 size: 1372

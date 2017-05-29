@@ -1,0 +1,182 @@
+Started by upstream project "[8mha:////4PAnzMAyE5ETM/PziOkZVzDtxC9mgozdq5MFXkd66DcJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6WflJ+smpeSX5xWCmuT4A/SSgSMcAAAA=[0mcentos/7" build number [8mha:////4GjfMwC3ckBBE5Jyarsumnw7sDkkRvZ7QdVWRDdQAjzuAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP3k1LyS/GIw01zfyBAAQoBtnckAAAA=[0m21
+originally caused by:
+ Started by user [8mha:////4KFkUOz9PG7gVaXzVl+ohEZItgngNhbDRlS7LpG2kpwFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+[8mha:////4Ly0i+dBgKaA7EjPnJcU6XmmDFyThaFjbHdLGejyawzNAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRMcN2xeQDYKgjRjgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+Obtained Jenkinsfile from 358675a12baa6ee54d16b724eae2aca6b5bf9f8b
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+Cloning the remote Git repository
+Cloning repository git@github.com:flegrand/httpd.git
+ > git init /var/jenkins_home/workspace/httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ # timeout=10
+Fetching upstream changes from git@github.com:flegrand/httpd.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/httpd.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:flegrand/httpd.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:flegrand/httpd.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/httpd.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/httpd.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/2.4^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/2.4^{commit} # timeout=10
+Checking out Revision 358675a12baa6ee54d16b724eae2aca6b5bf9f8b (refs/remotes/origin/2.4)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 358675a12baa6ee54d16b724eae2aca6b5bf9f8b
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b 2.4 358675a12baa6ee54d16b724eae2aca6b5bf9f8b
+ > git rev-list 358675a12baa6ee54d16b724eae2aca6b5bf9f8b # timeout=10
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage (Build and Push Docker image)
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Build and Push Docker image
+Proceeding
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerRegistry
+Wrote authentication to /var/jenkins_home/.docker/config.json
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/httpd:2.4-build12 .
+Sending build context to Docker daemon 67.58 kB
+Step 1/3 : FROM registry.demo.cloudcontrolled.net/demo/centos:7
+ ---> 437d66d45342
+Step 2/3 : RUN yum install -y httpd-2.4.6
+ ---> Running in d1d3c5a5fd9b
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirror.spreitzer.ch
+ * extras: mirror.spreitzer.ch
+ * updates: mirror.spreitzer.ch
+Resolving Dependencies
+--> Running transaction check
+---> Package httpd.x86_64 0:2.4.6-45.el7.centos.4 will be installed
+--> Processing Dependency: httpd-tools = 2.4.6-45.el7.centos.4 for package: httpd-2.4.6-45.el7.centos.4.x86_64
+--> Processing Dependency: system-logos >= 7.92.1-1 for package: httpd-2.4.6-45.el7.centos.4.x86_64
+--> Processing Dependency: /etc/mime.types for package: httpd-2.4.6-45.el7.centos.4.x86_64
+--> Processing Dependency: libaprutil-1.so.0()(64bit) for package: httpd-2.4.6-45.el7.centos.4.x86_64
+--> Processing Dependency: libapr-1.so.0()(64bit) for package: httpd-2.4.6-45.el7.centos.4.x86_64
+--> Running transaction check
+---> Package apr.x86_64 0:1.4.8-3.el7 will be installed
+---> Package apr-util.x86_64 0:1.5.2-6.el7 will be installed
+---> Package centos-logos.noarch 0:70.0.6-3.el7.centos will be installed
+---> Package httpd-tools.x86_64 0:2.4.6-45.el7.centos.4 will be installed
+---> Package mailcap.noarch 0:2.1.41-2.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package           Arch        Version                       Repository    Size
+================================================================================
+Installing:
+ httpd             x86_64      2.4.6-45.el7.centos.4         updates      2.7 M
+Installing for dependencies:
+ apr               x86_64      1.4.8-3.el7                   base         103 k
+ apr-util          x86_64      1.5.2-6.el7                   base          92 k
+ centos-logos      noarch      70.0.6-3.el7.centos           base          21 M
+ httpd-tools       x86_64      2.4.6-45.el7.centos.4         updates       84 k
+ mailcap           noarch      2.1.41-2.el7                  base          31 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+5 Dependent packages)
+
+Total download size: 24 M
+Installed size: 32 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                               10 MB/s |  24 MB  00:02     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : apr-1.4.8-3.el7.x86_64                                       1/6 
+  Installing : apr-util-1.5.2-6.el7.x86_64                                  2/6 
+  Installing : httpd-tools-2.4.6-45.el7.centos.4.x86_64                     3/6 
+  Installing : centos-logos-70.0.6-3.el7.centos.noarch                      4/6 
+  Installing : mailcap-2.1.41-2.el7.noarch                                  5/6 
+  Installing : httpd-2.4.6-45.el7.centos.4.x86_64                           6/6 
+  Verifying  : apr-1.4.8-3.el7.x86_64                                       1/6 
+  Verifying  : mailcap-2.1.41-2.el7.noarch                                  2/6 
+  Verifying  : apr-util-1.5.2-6.el7.x86_64                                  3/6 
+  Verifying  : httpd-tools-2.4.6-45.el7.centos.4.x86_64                     4/6 
+  Verifying  : httpd-2.4.6-45.el7.centos.4.x86_64                           5/6 
+  Verifying  : centos-logos-70.0.6-3.el7.centos.noarch                      6/6 
+
+Installed:
+  httpd.x86_64 0:2.4.6-45.el7.centos.4                                          
+
+Dependency Installed:
+  apr.x86_64 0:1.4.8-3.el7                                                      
+  apr-util.x86_64 0:1.5.2-6.el7                                                 
+  centos-logos.noarch 0:70.0.6-3.el7.centos                                     
+  httpd-tools.x86_64 0:2.4.6-45.el7.centos.4                                    
+  mailcap.noarch 0:2.1.41-2.el7                                                 
+
+Complete!
+ ---> d5c258a74c1a
+Removing intermediate container d1d3c5a5fd9b
+Step 3/3 : CMD /usr/sbin/apachectl -D FOREGROUND
+ ---> Running in 975c60c850f6
+ ---> 9f72d0f8805c
+Removing intermediate container 975c60c850f6
+Successfully built 9f72d0f8805c
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dockerFingerprintFrom
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/httpd:2.4-build12 registry.demo.cloudcontrolled.net/demo/httpd:2.4-build12
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/httpd:2.4-build12 registry.demo.cloudcontrolled.net/demo/httpd:2.4-build12
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/httpd:2.4-build12
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/httpd]
+d18bce29a804: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+efd1ef41f34d: Mounted from demo/centos
+45b90922d1dd: Mounted from demo/centos
+8cb1b4049e53: Mounted from demo/centos
+b51149973e6a: Mounted from demo/centos
+d18bce29a804: Pushed
+2.4-build12: digest: sha256:4aebdca8ddef7ce7a06e239d518d22816a22c4394c59ee29204a8def02718ce5 size: 1372
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/httpd:2.4-build12 registry.demo.cloudcontrolled.net/demo/httpd:2.4
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/httpd:2.4-build12 registry.demo.cloudcontrolled.net/demo/httpd:2.4
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[httpd_2.4-T4XQXL7DJVXJDYQHPBGAJVIBLBNEXDPRQA5MLWKZVECUSWG5XVKQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/httpd:2.4
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/httpd]
+d18bce29a804: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+efd1ef41f34d: Layer already exists
+b51149973e6a: Layer already exists
+45b90922d1dd: Layer already exists
+8cb1b4049e53: Layer already exists
+d18bce29a804: Layer already exists
+2.4: digest: sha256:4aebdca8ddef7ce7a06e239d518d22816a22c4394c59ee29204a8def02718ce5 size: 1372
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerRegistry
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] build (Building php » 5)
+Scheduling project: [8mha:////4JK2WGFtooKpO0R6YBORVPlzxj5iSZ0Zp2qlm0Ug7oGNAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZ+/az8JP2CjAIwbaoPAJ/ZsHLEAAAA[0mphp » 5
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

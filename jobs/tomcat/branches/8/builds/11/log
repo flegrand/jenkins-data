@@ -1,0 +1,1179 @@
+Started by upstream project "[8mha:////4N7Gbmprygfd62thpkO+AH53TJx8cKvYEUbdZZfHpxmiAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/az8JH2wOSBGfkFqXlZKtq65LpDUBwC1RhpM0QAAAA==[0mjava/openjdk-7-jdk" build number [8mha:////4IOxZOP2Y5H9XcU7XxBVelFBdW409Qi268cBYU+XFZsLAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgY5/az8JH2wOSBGfkFqXlZKtq65LpDUNzQDAJe6SnbTAAAA[0m16
+originally caused by:
+ Started by upstream project "[8mha:////4PAnzMAyE5ETM/PziOkZVzDtxC9mgozdq5MFXkd66DcJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6WflJ+smpeSX5xWCmuT4A/SSgSMcAAAA=[0mcentos/7" build number [8mha:////4A67unw11uNdbZEHwn0X7x+eGV+IUydhd2KJ5Od+IOepAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP3k1LyS/GIw01zfyAgA+NFkBMkAAAA=[0m22
+ originally caused by:
+  Started by user [8mha:////4KFkUOz9PG7gVaXzVl+ohEZItgngNhbDRlS7LpG2kpwFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+Started by upstream project "[8mha:////4N7Gbmprygfd62thpkO+AH53TJx8cKvYEUbdZZfHpxmiAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/az8JH2wOSBGfkFqXlZKtq65LpDUBwC1RhpM0QAAAA==[0mjava/openjdk-7-jdk" build number [8mha:////4CDmBCjXPjev6neCbO5mPBC0seJ68zFUsB4UdksS1Jf/AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgY5/az8JH2wOSBGfkFqXlZKtq65LpDUNzQFAC3rQ+/TAAAA[0m15
+originally caused by:
+ Started by upstream project "[8mha:////4PAnzMAyE5ETM/PziOkZVzDtxC9mgozdq5MFXkd66DcJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6WflJ+smpeSX5xWCmuT4A/SSgSMcAAAA=[0mcentos/7" build number [8mha:////4GjfMwC3ckBBE5Jyarsumnw7sDkkRvZ7QdVWRDdQAjzuAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP3k1LyS/GIw01zfyBAAQoBtnckAAAA=[0m21
+ originally caused by:
+  Started by user [8mha:////4KFkUOz9PG7gVaXzVl+ohEZItgngNhbDRlS7LpG2kpwFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+[8mha:////4Gut7+eQiZsEmrLuoRNHTgHjOpUgb3b1/22jWJcshEqhAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRMcP3q6QCh7UV5jgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+Obtained Jenkinsfile from 7f874f5df316b44a136a00f8d32e56da31d2185f
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+Cloning the remote Git repository
+Cloning repository git@github.com:flegrand/tomcat.git
+ > git init /var/jenkins_home/workspace/tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ # timeout=10
+Fetching upstream changes from git@github.com:flegrand/tomcat.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/tomcat.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:flegrand/tomcat.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:flegrand/tomcat.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/tomcat.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/tomcat.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/8^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/8^{commit} # timeout=10
+Checking out Revision 7f874f5df316b44a136a00f8d32e56da31d2185f (refs/remotes/origin/8)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7f874f5df316b44a136a00f8d32e56da31d2185f
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b 8 7f874f5df316b44a136a00f8d32e56da31d2185f
+ > git rev-list 7f874f5df316b44a136a00f8d32e56da31d2185f # timeout=10
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage (Build and Push Docker image)
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Build and Push Docker image
+Proceeding
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerRegistry
+Wrote authentication to /var/jenkins_home/.docker/config.json
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/tomcat:8-build11 .
+Sending build context to Docker daemon 91.65 kB
+Step 1/18 : FROM registry.demo.cloudcontrolled.net/demo/java:openjdk-7-jdk
+ ---> 98bddd1f587c
+Step 2/18 : RUN yum -y update &&  yum -y install wget &&  yum -y install tar
+ ---> Running in 0f5755eb6e1c
+Loaded plugins: fastestmirror, ovl
+Determining fastest mirrors
+ * base: mirror.spreitzer.ch
+ * extras: mirror.spreitzer.ch
+ * updates: mirror.spreitzer.ch
+No packages marked for update
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirror.spreitzer.ch
+ * extras: mirror.spreitzer.ch
+ * updates: mirror.spreitzer.ch
+Package wget-1.14-13.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirror.spreitzer.ch
+ * extras: mirror.spreitzer.ch
+ * updates: mirror.spreitzer.ch
+Package 2:tar-1.26-31.el7.x86_64 already installed and latest version
+Nothing to do
+ ---> 87bbaaf139f9
+Removing intermediate container 0f5755eb6e1c
+Step 3/18 : ENV JAVA_HOME /
+ ---> Running in 37edeffe480d
+ ---> ed21d31a6d79
+Removing intermediate container 37edeffe480d
+Step 4/18 : ENV CATALINA_HOME /opt/tomcat
+ ---> Running in 2ddecd13c926
+ ---> 3a78269b5f10
+Removing intermediate container 2ddecd13c926
+Step 5/18 : ENV PATH $PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin:$CATALINA_HOME/scripts
+ ---> Running in a9a1e6bbd507
+ ---> c188599c65ca
+Removing intermediate container a9a1e6bbd507
+Step 6/18 : ENV TOMCAT_MAJOR 8
+ ---> Running in c887f0a31369
+ ---> 6547c2c203bb
+Removing intermediate container c887f0a31369
+Step 7/18 : ENV TOMCAT_VERSION 8.5.15
+ ---> Running in 3f434a70f61f
+ ---> dd4563cb6eb4
+Removing intermediate container 3f434a70f61f
+Step 8/18 : RUN wget http://apache.crihan.fr/dist/tomcat/tomcat-${TOMCAT_MAJOR}/v${TOMCAT_VERSION}/bin/apache-tomcat-${TOMCAT_VERSION}.tar.gz &&  tar -xvf apache-tomcat-${TOMCAT_VERSION}.tar.gz &&  rm apache-tomcat*.tar.gz &&  mv apache-tomcat* ${CATALINA_HOME}
+ ---> Running in e0271447c03a
+[91m--2017-05-29 11:18:27--  http://apache.crihan.fr/dist/tomcat/tomcat-8/v8.5.15/bin/apache-tomcat-8.5.15.tar.gz
+[0m[91mResolving apache.crihan.fr (apache.crihan.fr)... [0m[91m195.221.21.36, 2001:660:7401:211::36
+[0m[91mConnecting to apache.crihan.fr (apache.crihan.fr)|195.221.21.36|:80... [0m[91mconnected.
+HTTP request sent, awaiting response... [0m[91m200 OK
+Length: 9393241 (9.0M) [application/x-gzip]
+Saving to: 'apache-tomcat-8.5.15.tar.gz'
+
+     0K .......... ...[0m[91m......[0m[91m. [0m[91m.[0m[91m..[0m[91m.[0m[91m.....[0m[91m. [0m[91m..[0m[91m.....[0m[91m...[0m[91m ..[0m[91m......[0m[91m..  0% 1.18M 8s
+    50K ..[0m[91m........ [0m[91m.......[0m[91m... .....[0m[91m.[0m[91m.... .[0m[91m......... ..[0m[91m...[0m[91m.[0m[91m.[0m[91m.[0m[91m..  1%[0m[91m 1.18M 8s[0m[91m
+   100K .....[0m[91m..... .[0m[91m..[0m[91m..[0m[91m....[0m[91m. .[0m[91m......... ..[0m[91m..[0m[91m.....[0m[91m. ..[0m[91m.....[0m[91m.[0m[91m..  1%[0m[91m 2.32M[0m[91m 6s
+   150K ...[0m[91m......[0m[91m.[0m[91m ..[0m[91m........ .......... .......... ..........  2% 2.42M 6s
+   200K ...[0m[91m....... .......... .......... .......... ..........  2% 2.30M 5s
+   250K .......... .......... .[0m[91m......... .......... ..........  3% 2.35M 5s
+   300K .......... .......... .......... .......... .[0m[91m.........  3% 2.36M 5s
+   350K .......... .......... .......[0m[91m... .......... ..........  4% 85.8M 4s
+   400K .[0m[91m..[0m[91m.[0m[91m..[0m[91m..[0m[91m.[0m[91m.[0m[91m .......[0m[91m... ...[0m[91m.[0m[91m..[0m[91m....[0m[91m [0m[91m...[0m[91m.[0m[91m...[0m[91m... .........[0m[91m.  4% 2.07M 4s
+   450K .......... .......... .......... ..[0m[91m.[0m[91m....... ........[0m[91m..  5% 2.34M 4s
+   500K .......... .......... .......... .......... ..........  5%  225M 4s
+   550K .......... .......... .......... .......... ..[0m[91m........  6% 2.73M 4s
+   600K .......[0m[91m... .......... ...[0m[91m....... .......... .......[0m[91m...  7% 17.4M 3s
+   650K ..........[0m[91m .[0m[91m........[0m[91m. ........[0m[91m.. ......[0m[91m.... .....[0m[91m....[0m[91m.  7% 2.74M 3s
+   700K .......... .........[0m[91m. .......[0m[91m... .....[0m[91m..... ..........  8% 16.6M 3s
+   750K .[0m[91m........[0m[91m. .......... .......... ...[0m[91m....... ..........  8% 42.6M 3s
+   800K .......... .......... .........[0m[91m. .......... ......[0m[91m....  9% 2.52M 3s
+   850K .......... .......... .......... .......... ..........  9% 96.3M 3s
+   900K ..........[0m[91m .......... .......... .......... .......... 10% 44.1M 3s
+   950K .......... .......... ...[0m[91m....... ..........[0m[91m ........[0m[91m.. 10% 2.51M 3s
+  1000K ......[0m[91m.... .......... ..........[0m[91m .......[0m[91m... .......... 11% 56.7M 2s
+  1050K .[0m[91m....[0m[91m..... .......... .[0m[91m........[0m[91m. .......[0m[91m..[0m[91m. .......... 11% 94.0M 2s
+  1100K .[0m[91m........[0m[91m. .......... .....[0m[91m..... .......... .[0m[91m......... 12% 2.95M 2s
+  1150K .......... ....[0m[91m...... ..[0m[91m........ ....[0m[91m....[0m[91m.. ...[0m[91m....... 13% 12.8M 2s
+  1200K ....[0m[91m...... ..[0m[91m........[0m[91m ........[0m[91m.. .......... ....[0m[91m...... 13% 92.9M 2s
+  1250K ..[0m[91m........[0m[91m ........[0m[91m.. ......[0m[91m.... .......... ..[0m[91m.......[0m[91m. 14% 3.06M 2s
+  1300K ..[0m[91m........ .....[0m[91m..... ...[0m[91m....... .[0m[91m......... .......... 14%  107M 2s
+  1350K .....[0m[91m..... .......... .[0m[91m........[0m[91m. .......... .....[0m[91m..... 15% 12.1M 2s
+  1400K ...[0m[91m....... ..........[0m[91m .......... .........[0m[91m. .......[0m[91m... 15%  103M 2s
+  1450K .....[0m[91m..... ...[0m[91m....... .[0m[91m......... ...[0m[91m....... .......... 16% 3.09M 2s
+  1500K .......[0m[91m... .......... .......... .[0m[91m......... ......[0m[91m.... 16% 12.2M 2s
+  1550K ..........[0m[91m ..........[0m[91m .......... ......[0m[91m.... ....[0m[91m...... 17%  104M 2s
+  1600K ..........[0m[91m .......... ......[0m[91m.... .......... ..[0m[91m........ 17%  108M 2s
+  1650K .[0m[91m......... .......... ....[0m[91m...... ..........[0m[91m .......... 18%  112M 2s
+  1700K ...[0m[91m....... .......... ......[0m[91m....[0m[91m .......[0m[91m... .......... 19% 3.24M 2s
+  1750K ...[0m[91m....... .........[0m[91m. .[0m[91m.[0m[91m........ .[0m[91m......... .......... 19% 10.3M 2s
+  1800K .......... .......... .......... .......... ..[0m[91m........ 20%  206M 2s
+  1850K ..........[0m[91m .......... .......... .......... .......... 20% 58.1M 2s
+  1900K .......... .......... ........[0m[91m.. .......... .......... 21% 3.24M 2s
+  1950K .[0m[91m....[0m[91m..... .......... .......... .......... ..[0m[91m........ 21% 11.2M 2s
+  2000K .......... .......... .......... .......... .......[0m[91m... 22%  101M 1s
+  2050K .....[0m[91m..[0m[91m... .......... .....[0m[91m..... .......... .......... 22% 67.1M 1s
+  2100K .......... ......[0m[91m...[0m[91m. .......... .......... .......... 23% 3.20M 1s
+  2150K .......... .......... ...[0m[91m....... .......... ....[0m[91m...... 23%  142M 1s
+  2200K ....[0m[91m...... ....[0m[91m...... .......... ..........[0m[91m ......[0m[91m.... 24% 12.0M 1s
+  2250K .......... .......... .......... .......... .......... 25%  123M 1s
+  2300K .......... .......... .......... .......... .......... 25% 55.5M 1s
+  2350K .......... .......... ...[0m[91m.....[0m[91m.. [0m[91m.[0m[91m.[0m[91m.[0m[91m.....[0m[91m.[0m[91m.[0m[91m [0m[91m.......[0m[91m.[0m[91m.. 26%[0m[91m 3.10M[0m[91m 1s[0m[91m
+  2400K[0m[91m .....[0m[91m.[0m[91m.... .[0m[91m.[0m[91m.[0m[91m......[0m[91m. .[0m[91m...[0m[91m.[0m[91m.[0m[91m.... [0m[91m......[0m[91m.[0m[91m..[0m[91m.[0m[91m .[0m[91m.[0m[91m.[0m[91m.....[0m[91m.. 26%[0m[91m 28.0M[0m[91m 1s[0m[91m
+  2450K .[0m[91m.[0m[91m..[0m[91m.[0m[91m.[0m[91m.[0m[91m... .......... .......... .......... .......... 27% 10.4M 1s
+  2500K .......... .......... .......... .......... .......... 27%  233M 1s
+  2550K .......... .......... .......... .......... .......... 28%  257M 1s
+  2600K .......... .......... .......... .......... .......... 28%  265M 1s
+  2650K .......... .......... .......... .......... ..[0m[91m........ 29% 3.83M 1s
+  2700K .........[0m[91m. .......... .......... ..........[0m[91m .......... 29% 76.0M 1s
+  2750K .....[0m[91m..[0m[91m... .......... .......... .......... .......... 30% 43.1M 1s
+  2800K .......... .........[0m[91m. .......... .......... .......... 31% 8.37M 1s
+  2850K .......... .......... ....[0m[91m...... ..........[0m[91m .......... 31% 95.4M 1s
+  2900K .......... .......... .......... .......... .......... 32%  101M 1s[0m[91m
+  2950K .......... ..[0m[91m........ ...[0m[91m....... .......... .......... 32% 3.65M 1s
+  3000K .......... .......... .......... ........[0m[91m.. .......... 33% 7.92M 1s
+  3050K .......... ..[0m[91m.[0m[91m....[0m[91m...[0m[91m ........[0m[91m.. ......[0m[91m.[0m[91m... .......... 33% 33.4M 1s
+  3100K .......... .......... .......... .......... .......... 34%  221M 1s
+  3150K .......... .......... .......... .......... .......... 34%  224M 1s
+  3200K .[0m[91m..[0m[91m.[0m[91m.[0m[91m....[0m[91m. ...[0m[91m..[0m[91m.[0m[91m.[0m[91m..[0m[91m. [0m[91m.........[0m[91m. ...[0m[91m.......[0m[91m ..[0m[91m.......[0m[91m. 35% 3.74M 1s
+  3250K[0m[91m [0m[91m......[0m[91m.[0m[91m..[0m[91m. [0m[91m.....[0m[91m..... .[0m[91m........[0m[91m. ......[0m[91m.[0m[91m..[0m[91m. ....[0m[91m...... 35% 40.5M[0m[91m 1s
+  3300K .....[0m[91m..... ...[0m[91m....... [0m[91m.[0m[91m.[0m[91m..[0m[91m....[0m[91m.. .......... .[0m[91m....[0m[91m....[0m[91m. 36% 9.88M 1s
+  3350K ......[0m[91m....[0m[91m ..[0m[91m.....[0m[91m.[0m[91m.. .......... ....[0m[91m...... [0m[91m....[0m[91m...... 37%[0m[91m 24.4M 1s[0m[91m
+  3400K ...[0m[91m....[0m[91m...[0m[91m ..[0m[91m........ .[0m[91m...[0m[91m..[0m[91m....[0m[91m ...[0m[91m......[0m[91m. ...[0m[91m.....[0m[91m.. 37% 22.1M 1s
+  3450K[0m[91m ....[0m[91m...[0m[91m... ..[0m[91m......[0m[91m.. ..[0m[91m......[0m[91m.. .......[0m[91m...[0m[91m ....[0m[91m...... 38% 43.5M[0m[91m 1s
+  3500K .[0m[91m......[0m[91m... ..[0m[91m.......[0m[91m. .......[0m[91m... ..[0m[91m.[0m[91m..[0m[91m..... .........[0m[91m.[0m[91m 38% 5.60M[0m[91m 1s
+  3550K[0m[91m .[0m[91m..[0m[91m...[0m[91m...[0m[91m. .......[0m[91m... .[0m[91m......[0m[91m.[0m[91m.. .[0m[91m..[0m[91m.[0m[91m......[0m[91m ......[0m[91m.... 39% 27.8M 1s[0m[91m
+  3600K ......[0m[91m.... .[0m[91m.......[0m[91m.. .[0m[91m...[0m[91m...... ..[0m[91m....[0m[91m...[0m[91m. .[0m[91m.....[0m[91m.... 39% 10.9M 1s
+  3650K .......... .......... .[0m[91m......... .......... .......... 40%  110M 1s[0m[91m
+  3700K ....[0m[91m.[0m[91m..... ......[0m[91m.... .......... .......... .......... 40% 53.5M 1s
+  3750K .......... .......... .......... .......... .......... 41%  187M 1s
+  3800K .......... .......... .......... ........[0m[91m.. .[0m[91m.....[0m[91m.... 41% 63.0M 1s[0m[91m
+  3850K[0m[91m .[0m[91m...[0m[91m...... [0m[91m.....[0m[91m.[0m[91m....[0m[91m .......... .......... .......... 42% 34.8M 1s
+  3900K .[0m[91m......... .......... ..[0m[91m...[0m[91m..... .......... .......... 43% 4.52M[0m[91m 1s[0m[91m
+  3950K[0m[91m .......... ....[0m[91m...... .......... .......... .......... 43% 55.9M 1s
+  4000K .......... .......... ........[0m[91m.. .......... .......... 44% 8.88M 1s
+  4050K .......... .......[0m[91m... .[0m[91m.....[0m[91m.... .......... ...[0m[91m.[0m[91m...... 44% 74.2M[0m[91m 1s
+  4100K .......[0m[91m.[0m[91m.. ......[0m[91m.... .......... .......... .......... 45% 75.0M 1s
+  4150K .......... .......... .......... .[0m[91m.[0m[91m..[0m[91m.[0m[91m.[0m[91m..[0m[91m.[0m[91m.[0m[91m [0m[91m...[0m[91m.[0m[91m...[0m[91m.[0m[91m.. 45% 44.0M 1s
+  4200K .....[0m[91m..... .......... .......... ........[0m[91m.. .........[0m[91m.[0m[91m 46% 87.4M 1s
+  4250K .....[0m[91m..... .......... [0m[91m.....[0m[91m..... ..[0m[91m.[0m[91m....... .......... 46% 4.53M 1s
+  4300K .......... .......... .......... .......... .......... 47%  108M 1s
+  4350K .......... .......... .......... ...[0m[91m.[0m[91m....[0m[91m.. .[0m[91m...[0m[91m...[0m[91m.[0m[91m.[0m[91m.[0m[91m 47%[0m[91m 30.5M[0m[91m 1s[0m[91m
+  4400K[0m[91m ....[0m[91m...[0m[91m.[0m[91m.[0m[91m. [0m[91m.[0m[91m.....[0m[91m.... ...[0m[91m....... ..[0m[91m........ .......[0m[91m..[0m[91m. 48% 31.5M 1s
+  4450K .....[0m[91m.[0m[91m.... .......... ...[0m[91m......[0m[91m. .......... .......... 49% 11.9M 1s
+  4500K .......... .......... .......... .......... .......... 49%  154M[0m[91m 1s
+  4550K ...[0m[91m....... .......... .......... .......... .......... 50% 65.9M 1s
+  4600K .......... .......... .......... .......... .[0m[91m.[0m[91m...[0m[91m.[0m[91m.... 50% 43.7M 1s
+  4650K .......... .......... .......... .......... .......... 51%  176M 1s
+  4700K .......... .......... ........[0m[91m.. .......... .......... 51% 5.47M 1s
+  4750K ..[0m[91m........ .......... .......... ....[0m[91m...... .......... 52% 29.1M 1s
+  4800K .[0m[91m........[0m[91m. .......... .....[0m[91m..... .......... .......... 52% 66.8M 1s
+  4850K .......... ......[0m[91m.... .......... ......[0m[91m.... .......... 53% 63.0M 1s
+  4900K .[0m[91m........[0m[91m. ..........[0m[91m .......... .......... .......... 53% 70.3M 1s[0m[91m
+  4950K ........[0m[91m.. ......[0m[91m.[0m[91m... ....[0m[91m...... ..[0m[91m........ .......... 54% 10.2M 1s
+  5000K .......... .......... .......... ......[0m[91m.... .......... 55% 75.9M 0s
+  5050K .......... .......... ........[0m[91m.. .......... .......... 55% 84.4M 0s
+  5100K ...[0m[91m....... .......... .......... .......... .......... 56%  104M 0s
+  5150K .......... .........[0m[91m. .......... .[0m[91m......... .......... 56% 92.4M 0s
+  5200K .......... .......... ....[0m[91m...... .......[0m[91m... .......... 57% 4.97M 0s
+  5250K ....[0m[91m...... .......... .....[0m[91m..... .......... .......... 57% 91.4M 0s
+  5300K .[0m[91m.[0m[91m........ .......... .......... .......... .......... 58% 53.7M 0s
+  5350K .......... .[0m[91m...[0m[91m...... ....[0m[91m...... .......... .......... 58% 51.3M 0s
+  5400K .......... .......... ........[0m[91m.[0m[91m. .......... ...[0m[91m....... 59% 68.3M 0s
+  5450K .......... .......... .....[0m[91m..... .......... .[0m[91m..[0m[91m....... 59% 79.4M 0s
+  5500K ...[0m[91m....... .[0m[91m......... [0m[91m.......... .....[0m[91m..... .......... 60% 71.9M 0s
+  5550K .....[0m[91m..... .......... .......... ..........[0m[91m .......... 61% 11.0M 0s
+  5600K .......... ....[0m[91m.....[0m[91m.[0m[91m .......... .[0m[91m......... ........[0m[91m.. 61% 45.9M 0s
+  5650K .....[0m[91m..... ...[0m[91m....... .......... .......... .......... 62%  106M 0s
+  5700K .......... .......... .......... .......... ..........[0m[91m 62%  124M 0s
+  5750K .......... .......... ...[0m[91m....... .......... .......... 63% 81.3M 0s
+  5800K .......... ........[0m[91m.. .......... ......[0m[91m.... ....[0m[91m...... 63% 92.3M 0s
+  5850K ..[0m[91m........ .[0m[91m....[0m[91m...[0m[91m.[0m[91m. ...[0m[91m....... ...[0m[91m....... .......... 64% 5.48M 0s
+  5900K .......... .......... .......... .......[0m[91m... ......[0m[91m.... 64% 63.5M 0s
+  5950K .......... .......... .......... .......... .......... 65%[0m[91m  106M 0s[0m[91m
+  6000K ..[0m[91m........ .......... .......... .......... .......... 65% 60.0M 0s
+  6050K .[0m[91m......... ....[0m[91m...... ....[0m[91m...... .......... .......... 66%[0m[91m 47.9M 0s
+  6100K .......... .......... .......... .........[0m[91m. .......... 67%  123M 0s
+  6150K .......... .......... .......... ...[0m[91m....... .......... 67% 82.7M 0s
+  6200K .......... ......[0m[91m.... .......... .......... .......... 68%  108M 0s
+  6250K .....[0m[91m..... .......... .......... .......... .......... 68% 11.9M 0s
+  6300K .......... .........[0m[91m. .......... .......... .......... 69% 39.7M 0s
+  6350K .......... .......... .......... .....[0m[91m..... ...[0m[91m....... 69% 37.4M 0s
+  6400K .[0m[91m........[0m[91m. .......[0m[91m... .....[0m[91m..... .......... .......... 70% 49.8M 0s
+  6450K .......... .......... .......... .......... .......... 70%  207M 0s
+  6500K .......... .......... .......... .......... .......... 71%  262M 0s
+  6550K .......... .......... .......... .......... .......... 71%  301M 0s
+  6600K .......... .......... .......... .......[0m[91m... .......... 72% 5.98M 0s
+  6650K .......... .......... .......... .......... .......... 73%  148M 0s[0m[91m
+  6700K .......... .......... .......... ....[0m[91m...... ....[0m[91m...... 73% 59.2M 0s
+  6750K .......... ....[0m[91m.[0m[91m..... .......... ..........[0m[91m ..........[0m[91m 74% 64.1M 0s
+  6800K .........[0m[91m. .......... ..[0m[91m...[0m[91m...[0m[91m.. .......... ..[0m[91m........ 74% 58.8M 0s
+  6850K .......... .......[0m[91m... .......... .......... .......... 75%  106M 0s
+  6900K .......... ........[0m[91m.. .......... .......... .......... 75%  102M 0s
+  6950K .......... .......... .......... .......... .......... 76%  119M 0s
+  7000K .......... .......... .......... ........[0m[91m.. .......... 76% 55.1M 0s
+  7050K .......... ........[0m[91m.. .......... ..[0m[91m........ .......... 77% 13.8M 0s
+  7100K .......... .......... .......... .......... ......[0m[91m.... 77% 36.8M 0s
+  7150K .......... .......... .......... .......... .......... 78%  115M 0s
+  7200K .......... .......... .......... .......... .......... 79%  133M 0s
+  7250K .......... .......... .......... .......... .......... 79%  120M 0s
+  7300K .......... .......... .......... .......... .......... 80%  104M 0s
+  7350K .......... .......... .......... .......... .......... 80%  119M 0s
+  7400K .......... .......... .......... .......... .......... 81%  110M 0s
+  7450K .......... ........[0m[91m.. .......... .......... .......... 81% 68.8M 0s
+  7500K .......... .......... ........[0m[91m.. .......... .......... 82% 6.35M 0s
+  7550K .......... .......... .......... .......... .......... 82% 61.4M 0s
+  7600K .......... .......... .......... .......... .......... 83% 88.4M 0s
+  7650K .....[0m[91m..... .......... .......... ......[0m[91m.... ....[0m[91m...... 83% 59.5M 0s
+  7700K .......... .........[0m[91m. .......... .......... ....[0m[91m...... 84% 68.8M 0s
+  7750K .......... .[0m[91m......... ........[0m[91m.. ......[0m[91m.... ....[0m[91m...... 85% 19.3M 0s
+  7800K .......... .......... .......... .......... .......... 85% 92.0M 0s
+  7850K .......... .......... .......... .......... .......... 86%  187M 0s
+  7900K .......... .......... .......... .......... .......... 86%  274M 0s
+  7950K .......... .......... .......... .......... .......... 87%  272M 0s
+  8000K .......... .......... .......... .......[0m[91m... .......... 87% 23.4M 0s
+  8050K .......... .......... .......... .......... ........[0m[91m.. 88%  209M 0s[0m[91m
+  8100K .......... .......... ...[0m[91m....... .......... ........[0m[91m.. 88% 38.2M 0s
+  8150K .......... .......... ..........[0m[91m .......... .......... 89% 48.8M 0s
+  8200K .......... .......... .......... .......... .......... 89%  305M 0s
+  8250K .......... .......... .......... .......... .......... 90%  245M 0s
+  8300K .......... .......... .......... .......... .......... 91%  102M 0s
+  8350K .......... .......... .......... .......... .......... 91% 91.5M 0s
+  8400K .......... .......... .......... .......... .......... 92%  106M 0s
+  8450K .......... .......... .......... .......... ......[0m[91m..[0m[91m.. 92% 58.2M 0s
+  8500K .......... ....[0m[91m...... ..[0m[91m........ ........[0m[91m.. .......... 93% 3.13M 0s
+  8550K .......... .......... .......... .......... ....[0m[91m...... 93%  217M 0s
+  8600K .......... ........[0m[91m.. ......[0m[91m.... .......... .......... 94%  229M 0s
+  8650K .......... .......... .......... ..[0m[91m........ .......... 94%  201M 0s
+  8700K .......... .......... .......... .......... .......... 95%  233M 0s
+  8750K .......... .......... .......... .......... .......... 95%  232M 0s
+  8800K .......... .......... .......... .......... .......... 96%  235M 0s
+  8850K .......... .......... .......... .......... .......... 97%  199M 0s
+  8900K .......... .......... .......... .......... .......... 97%  240M 0s
+  8950K .......... .......... .......... .......... .......... 98%  238M 0s
+  9000K .......... .......... .......... .......... .......... 98%  242M 0s
+  9050K .......... .......... .......... .......... .......... 99%  171M 0s
+  9100K .......... .......... .......... .......... .......... 99%  218M 0s
+  9150K .......... .......... ...                             100%  172M=0.7s
+
+[0m[91m2017-05-29 11:18:28 (12.5 MB/s) - 'apache-tomcat-8.5.15.tar.gz' saved [9393241/9393241]
+
+[0mapache-tomcat-8.5.15/conf/
+apache-tomcat-8.5.15/conf/catalina.policy
+apache-tomcat-8.5.15/conf/catalina.properties
+apache-tomcat-8.5.15/conf/context.xml
+apache-tomcat-8.5.15/conf/jaspic-providers.xml
+apache-tomcat-8.5.15/conf/jaspic-providers.xsd
+apache-tomcat-8.5.15/conf/logging.properties
+apache-tomcat-8.5.15/conf/server.xml
+apache-tomcat-8.5.15/conf/tomcat-users.xml
+apache-tomcat-8.5.15/conf/tomcat-users.xsd
+apache-tomcat-8.5.15/conf/web.xml
+apache-tomcat-8.5.15/bin/
+apache-tomcat-8.5.15/lib/
+apache-tomcat-8.5.15/logs/
+apache-tomcat-8.5.15/temp/
+apache-tomcat-8.5.15/webapps/
+apache-tomcat-8.5.15/webapps/ROOT/
+apache-tomcat-8.5.15/webapps/ROOT/WEB-INF/
+apache-tomcat-8.5.15/webapps/docs/
+apache-tomcat-8.5.15/webapps/docs/WEB-INF/
+apache-tomcat-8.5.15/webapps/docs/api/
+apache-tomcat-8.5.15/webapps/docs/appdev/
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/docs/
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/src/
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/src/mypackage/
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/web/
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/web/WEB-INF/
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/web/images/
+apache-tomcat-8.5.15/webapps/docs/architecture/
+apache-tomcat-8.5.15/webapps/docs/architecture/requestProcess/
+apache-tomcat-8.5.15/webapps/docs/architecture/startup/
+apache-tomcat-8.5.15/webapps/docs/config/
+apache-tomcat-8.5.15/webapps/docs/elapi/
+apache-tomcat-8.5.15/webapps/docs/funcspecs/
+apache-tomcat-8.5.15/webapps/docs/images/
+apache-tomcat-8.5.15/webapps/docs/images/fonts/
+apache-tomcat-8.5.15/webapps/docs/jspapi/
+apache-tomcat-8.5.15/webapps/docs/servletapi/
+apache-tomcat-8.5.15/webapps/docs/tribes/
+apache-tomcat-8.5.15/webapps/docs/websocketapi/
+apache-tomcat-8.5.15/webapps/examples/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/checkbox/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/colors/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/dates/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/error/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/filters/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/http2/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/el/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/listeners/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/num/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/sessions/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/util/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/validators/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/chat/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/jsp/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/jsp2/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/jsp/applet/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/lib/
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/tags/
+apache-tomcat-8.5.15/webapps/examples/jsp/
+apache-tomcat-8.5.15/webapps/examples/jsp/async/
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/
+apache-tomcat-8.5.15/webapps/examples/jsp/checkbox/
+apache-tomcat-8.5.15/webapps/examples/jsp/colors/
+apache-tomcat-8.5.15/webapps/examples/jsp/dates/
+apache-tomcat-8.5.15/webapps/examples/jsp/error/
+apache-tomcat-8.5.15/webapps/examples/jsp/forward/
+apache-tomcat-8.5.15/webapps/examples/jsp/images/
+apache-tomcat-8.5.15/webapps/examples/jsp/include/
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/
+apache-tomcat-8.5.15/webapps/examples/jsp/jsptoserv/
+apache-tomcat-8.5.15/webapps/examples/jsp/num/
+apache-tomcat-8.5.15/webapps/examples/jsp/plugin/
+apache-tomcat-8.5.15/webapps/examples/jsp/plugin/applet/
+apache-tomcat-8.5.15/webapps/examples/jsp/security/
+apache-tomcat-8.5.15/webapps/examples/jsp/security/protected/
+apache-tomcat-8.5.15/webapps/examples/jsp/sessions/
+apache-tomcat-8.5.15/webapps/examples/jsp/simpletag/
+apache-tomcat-8.5.15/webapps/examples/jsp/snp/
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/
+apache-tomcat-8.5.15/webapps/examples/jsp/xml/
+apache-tomcat-8.5.15/webapps/examples/servlets/
+apache-tomcat-8.5.15/webapps/examples/servlets/images/
+apache-tomcat-8.5.15/webapps/examples/servlets/nonblocking/
+apache-tomcat-8.5.15/webapps/examples/websocket/
+apache-tomcat-8.5.15/webapps/host-manager/
+apache-tomcat-8.5.15/webapps/host-manager/META-INF/
+apache-tomcat-8.5.15/webapps/host-manager/WEB-INF/
+apache-tomcat-8.5.15/webapps/host-manager/WEB-INF/jsp/
+apache-tomcat-8.5.15/webapps/host-manager/images/
+apache-tomcat-8.5.15/webapps/manager/
+apache-tomcat-8.5.15/webapps/manager/META-INF/
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/jsp/
+apache-tomcat-8.5.15/webapps/manager/images/
+apache-tomcat-8.5.15/work/
+apache-tomcat-8.5.15/LICENSE
+apache-tomcat-8.5.15/NOTICE
+apache-tomcat-8.5.15/RELEASE-NOTES
+apache-tomcat-8.5.15/RUNNING.txt
+apache-tomcat-8.5.15/bin/bootstrap.jar
+apache-tomcat-8.5.15/bin/catalina-tasks.xml
+apache-tomcat-8.5.15/bin/catalina.bat
+apache-tomcat-8.5.15/bin/commons-daemon-native.tar.gz
+apache-tomcat-8.5.15/bin/commons-daemon.jar
+apache-tomcat-8.5.15/bin/configtest.bat
+apache-tomcat-8.5.15/bin/digest.bat
+apache-tomcat-8.5.15/bin/setclasspath.bat
+apache-tomcat-8.5.15/bin/shutdown.bat
+apache-tomcat-8.5.15/bin/startup.bat
+apache-tomcat-8.5.15/bin/tomcat-juli.jar
+apache-tomcat-8.5.15/bin/tomcat-native.tar.gz
+apache-tomcat-8.5.15/bin/tool-wrapper.bat
+apache-tomcat-8.5.15/bin/version.bat
+apache-tomcat-8.5.15/lib/annotations-api.jar
+apache-tomcat-8.5.15/lib/catalina-ant.jar
+apache-tomcat-8.5.15/lib/catalina-ha.jar
+apache-tomcat-8.5.15/lib/catalina-storeconfig.jar
+apache-tomcat-8.5.15/lib/catalina-tribes.jar
+apache-tomcat-8.5.15/lib/catalina.jar
+apache-tomcat-8.5.15/lib/ecj-4.6.3.jar
+apache-tomcat-8.5.15/lib/el-api.jar
+apache-tomcat-8.5.15/lib/jasper-el.jar
+apache-tomcat-8.5.15/lib/jasper.jar
+apache-tomcat-8.5.15/lib/jaspic-api.jar
+apache-tomcat-8.5.15/lib/jsp-api.jar
+apache-tomcat-8.5.15/lib/servlet-api.jar
+apache-tomcat-8.5.15/lib/tomcat-api.jar
+apache-tomcat-8.5.15/lib/tomcat-coyote.jar
+apache-tomcat-8.5.15/lib/tomcat-dbcp.jar
+apache-tomcat-8.5.15/lib/tomcat-i18n-es.jar
+apache-tomcat-8.5.15/lib/tomcat-i18n-fr.jar
+apache-tomcat-8.5.15/lib/tomcat-i18n-ja.jar
+apache-tomcat-8.5.15/lib/tomcat-jdbc.jar
+apache-tomcat-8.5.15/lib/tomcat-jni.jar
+apache-tomcat-8.5.15/lib/tomcat-util-scan.jar
+apache-tomcat-8.5.15/lib/tomcat-util.jar
+apache-tomcat-8.5.15/lib/tomcat-websocket.jar
+apache-tomcat-8.5.15/lib/websocket-api.jar
+apache-tomcat-8.5.15/temp/safeToDelete.tmp
+apache-tomcat-8.5.15/webapps/ROOT/RELEASE-NOTES.txt
+apache-tomcat-8.5.15/webapps/ROOT/WEB-INF/web.xml
+apache-tomcat-8.5.15/webapps/ROOT/asf-logo-wide.svg
+apache-tomcat-8.5.15/webapps/ROOT/bg-button.png
+apache-tomcat-8.5.15/webapps/ROOT/bg-middle.png
+apache-tomcat-8.5.15/webapps/ROOT/bg-nav-item.png
+apache-tomcat-8.5.15/webapps/ROOT/bg-nav.png
+apache-tomcat-8.5.15/webapps/ROOT/bg-upper.png
+apache-tomcat-8.5.15/webapps/ROOT/favicon.ico
+apache-tomcat-8.5.15/webapps/ROOT/index.jsp
+apache-tomcat-8.5.15/webapps/ROOT/tomcat-power.gif
+apache-tomcat-8.5.15/webapps/ROOT/tomcat.css
+apache-tomcat-8.5.15/webapps/ROOT/tomcat.gif
+apache-tomcat-8.5.15/webapps/ROOT/tomcat.png
+apache-tomcat-8.5.15/webapps/ROOT/tomcat.svg
+apache-tomcat-8.5.15/webapps/docs/BUILDING.txt
+apache-tomcat-8.5.15/webapps/docs/RELEASE-NOTES.txt
+apache-tomcat-8.5.15/webapps/docs/RUNNING.txt
+apache-tomcat-8.5.15/webapps/docs/WEB-INF/web.xml
+apache-tomcat-8.5.15/webapps/docs/aio.html
+apache-tomcat-8.5.15/webapps/docs/api/index.html
+apache-tomcat-8.5.15/webapps/docs/appdev/build.xml.txt
+apache-tomcat-8.5.15/webapps/docs/appdev/deployment.html
+apache-tomcat-8.5.15/webapps/docs/appdev/index.html
+apache-tomcat-8.5.15/webapps/docs/appdev/installation.html
+apache-tomcat-8.5.15/webapps/docs/appdev/introduction.html
+apache-tomcat-8.5.15/webapps/docs/appdev/processes.html
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/build.xml
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/docs/README.txt
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/index.html
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/sample.war
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/src/mypackage/Hello.java
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/web/WEB-INF/web.xml
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/web/hello.jsp
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/web/images/tomcat.gif
+apache-tomcat-8.5.15/webapps/docs/appdev/sample/web/index.html
+apache-tomcat-8.5.15/webapps/docs/appdev/source.html
+apache-tomcat-8.5.15/webapps/docs/appdev/web.xml.txt
+apache-tomcat-8.5.15/webapps/docs/apr.html
+apache-tomcat-8.5.15/webapps/docs/architecture/index.html
+apache-tomcat-8.5.15/webapps/docs/architecture/overview.html
+apache-tomcat-8.5.15/webapps/docs/architecture/requestProcess.html
+apache-tomcat-8.5.15/webapps/docs/architecture/requestProcess/authentication-process.png
+apache-tomcat-8.5.15/webapps/docs/architecture/requestProcess/request-process.png
+apache-tomcat-8.5.15/webapps/docs/architecture/startup.html
+apache-tomcat-8.5.15/webapps/docs/architecture/startup/serverStartup.pdf
+apache-tomcat-8.5.15/webapps/docs/architecture/startup/serverStartup.txt
+apache-tomcat-8.5.15/webapps/docs/balancer-howto.html
+apache-tomcat-8.5.15/webapps/docs/building.html
+apache-tomcat-8.5.15/webapps/docs/cgi-howto.html
+apache-tomcat-8.5.15/webapps/docs/changelog.html
+apache-tomcat-8.5.15/webapps/docs/class-loader-howto.html
+apache-tomcat-8.5.15/webapps/docs/cluster-howto.html
+apache-tomcat-8.5.15/webapps/docs/comments.html
+apache-tomcat-8.5.15/webapps/docs/config/ajp.html
+apache-tomcat-8.5.15/webapps/docs/config/automatic-deployment.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-channel.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-deployer.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-interceptor.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-listener.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-manager.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-membership.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-receiver.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-sender.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster-valve.html
+apache-tomcat-8.5.15/webapps/docs/config/cluster.html
+apache-tomcat-8.5.15/webapps/docs/config/context.html
+apache-tomcat-8.5.15/webapps/docs/config/cookie-processor.html
+apache-tomcat-8.5.15/webapps/docs/config/credentialhandler.html
+apache-tomcat-8.5.15/webapps/docs/config/engine.html
+apache-tomcat-8.5.15/webapps/docs/config/executor.html
+apache-tomcat-8.5.15/webapps/docs/config/filter.html
+apache-tomcat-8.5.15/webapps/docs/config/globalresources.html
+apache-tomcat-8.5.15/webapps/docs/config/host.html
+apache-tomcat-8.5.15/webapps/docs/config/http.html
+apache-tomcat-8.5.15/webapps/docs/config/http2.html
+apache-tomcat-8.5.15/webapps/docs/config/index.html
+apache-tomcat-8.5.15/webapps/docs/config/jar-scan-filter.html
+apache-tomcat-8.5.15/webapps/docs/config/jar-scanner.html
+apache-tomcat-8.5.15/webapps/docs/config/jaspic.html
+apache-tomcat-8.5.15/webapps/docs/config/listeners.html
+apache-tomcat-8.5.15/webapps/docs/config/loader.html
+apache-tomcat-8.5.15/webapps/docs/config/manager.html
+apache-tomcat-8.5.15/webapps/docs/config/realm.html
+apache-tomcat-8.5.15/webapps/docs/config/resources.html
+apache-tomcat-8.5.15/webapps/docs/config/server.html
+apache-tomcat-8.5.15/webapps/docs/config/service.html
+apache-tomcat-8.5.15/webapps/docs/config/sessionidgenerator.html
+apache-tomcat-8.5.15/webapps/docs/config/systemprops.html
+apache-tomcat-8.5.15/webapps/docs/config/valve.html
+apache-tomcat-8.5.15/webapps/docs/connectors.html
+apache-tomcat-8.5.15/webapps/docs/default-servlet.html
+apache-tomcat-8.5.15/webapps/docs/deployer-howto.html
+apache-tomcat-8.5.15/webapps/docs/developers.html
+apache-tomcat-8.5.15/webapps/docs/elapi/index.html
+apache-tomcat-8.5.15/webapps/docs/extras.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/fs-admin-apps.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/fs-admin-objects.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/fs-admin-opers.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/fs-default.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/fs-jdbc-realm.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/fs-jndi-realm.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/fs-memory-realm.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/index.html
+apache-tomcat-8.5.15/webapps/docs/funcspecs/mbean-names.html
+apache-tomcat-8.5.15/webapps/docs/html-manager-howto.html
+apache-tomcat-8.5.15/webapps/docs/images/add.gif
+apache-tomcat-8.5.15/webapps/docs/images/asf-logo.svg
+apache-tomcat-8.5.15/webapps/docs/images/code.gif
+apache-tomcat-8.5.15/webapps/docs/images/cors-flowchart.png
+apache-tomcat-8.5.15/webapps/docs/images/design.gif
+apache-tomcat-8.5.15/webapps/docs/images/docs-stylesheet.css
+apache-tomcat-8.5.15/webapps/docs/images/docs.gif
+apache-tomcat-8.5.15/webapps/docs/images/fix.gif
+apache-tomcat-8.5.15/webapps/docs/images/fonts/OpenSans400.woff
+apache-tomcat-8.5.15/webapps/docs/images/fonts/OpenSans400italic.woff
+apache-tomcat-8.5.15/webapps/docs/images/fonts/OpenSans600.woff
+apache-tomcat-8.5.15/webapps/docs/images/fonts/OpenSans600italic.woff
+apache-tomcat-8.5.15/webapps/docs/images/fonts/OpenSans700.woff
+apache-tomcat-8.5.15/webapps/docs/images/fonts/OpenSans700italic.woff
+apache-tomcat-8.5.15/webapps/docs/images/fonts/fonts.css
+apache-tomcat-8.5.15/webapps/docs/images/printer.gif
+apache-tomcat-8.5.15/webapps/docs/images/tomcat.gif
+apache-tomcat-8.5.15/webapps/docs/images/tomcat.png
+apache-tomcat-8.5.15/webapps/docs/images/tomcat.svg
+apache-tomcat-8.5.15/webapps/docs/images/update.gif
+apache-tomcat-8.5.15/webapps/docs/images/void.gif
+apache-tomcat-8.5.15/webapps/docs/index.html
+apache-tomcat-8.5.15/webapps/docs/introduction.html
+apache-tomcat-8.5.15/webapps/docs/jasper-howto.html
+apache-tomcat-8.5.15/webapps/docs/jdbc-pool.html
+apache-tomcat-8.5.15/webapps/docs/jndi-datasource-examples-howto.html
+apache-tomcat-8.5.15/webapps/docs/jndi-resources-howto.html
+apache-tomcat-8.5.15/webapps/docs/jspapi/index.html
+apache-tomcat-8.5.15/webapps/docs/logging.html
+apache-tomcat-8.5.15/webapps/docs/manager-howto.html
+apache-tomcat-8.5.15/webapps/docs/maven-jars.html
+apache-tomcat-8.5.15/webapps/docs/mbeans-descriptors-howto.html
+apache-tomcat-8.5.15/webapps/docs/monitoring.html
+apache-tomcat-8.5.15/webapps/docs/proxy-howto.html
+apache-tomcat-8.5.15/webapps/docs/realm-howto.html
+apache-tomcat-8.5.15/webapps/docs/rewrite.html
+apache-tomcat-8.5.15/webapps/docs/security-howto.html
+apache-tomcat-8.5.15/webapps/docs/security-manager-howto.html
+apache-tomcat-8.5.15/webapps/docs/servletapi/index.html
+apache-tomcat-8.5.15/webapps/docs/setup.html
+apache-tomcat-8.5.15/webapps/docs/ssi-howto.html
+apache-tomcat-8.5.15/webapps/docs/ssl-howto.html
+apache-tomcat-8.5.15/webapps/docs/tribes/developers.html
+apache-tomcat-8.5.15/webapps/docs/tribes/faq.html
+apache-tomcat-8.5.15/webapps/docs/tribes/interceptors.html
+apache-tomcat-8.5.15/webapps/docs/tribes/introduction.html
+apache-tomcat-8.5.15/webapps/docs/tribes/membership.html
+apache-tomcat-8.5.15/webapps/docs/tribes/setup.html
+apache-tomcat-8.5.15/webapps/docs/tribes/status.html
+apache-tomcat-8.5.15/webapps/docs/tribes/transport.html
+apache-tomcat-8.5.15/webapps/docs/virtual-hosting-howto.html
+apache-tomcat-8.5.15/webapps/docs/web-socket-howto.html
+apache-tomcat-8.5.15/webapps/docs/websocketapi/index.html
+apache-tomcat-8.5.15/webapps/docs/windows-auth-howto.html
+apache-tomcat-8.5.15/webapps/docs/windows-service-howto.html
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/CookieExample.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/CookieExample.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/HelloWorldExample.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/HelloWorldExample.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/LocalStrings.properties
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/LocalStrings_en.properties
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/LocalStrings_es.properties
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/LocalStrings_fr.properties
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/LocalStrings_pt.properties
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/RequestHeaderExample.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/RequestHeaderExample.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/RequestInfoExample.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/RequestInfoExample.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/RequestParamExample.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/RequestParamExample.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/ServletToJsp.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/ServletToJsp.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/SessionExample.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/SessionExample.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async0$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async0.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async0.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async1$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async1.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async2$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async2.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async2.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async3.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Async3.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/AsyncStockServlet.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Stockticker$Stock.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Stockticker$TickListener.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Stockticker.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/async/Stockticker.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/Entries.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/Entries.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/Entry.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/Entry.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/JspCalendar.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/JspCalendar.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/TableBean.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/cal/TableBean.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/checkbox/CheckTest.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/checkbox/CheckTest.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/colors/ColorGameBean.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/colors/ColorGameBean.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilter.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/CompressionFilterTestServlet.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/CompressionResponseStream.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/compressionFilters/CompressionServletResponseWrapper.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/dates/JspCalendar.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/dates/JspCalendar.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/error/Smart.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/error/Smart.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/ExampleTagBase.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/FooTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/FooTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/FooTagExtraInfo.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/LogTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/LogTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/ShowSource.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/ShowSource.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/ValuesTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/examples/ValuesTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/filters/ExampleFilter.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/filters/ExampleFilter.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/http2/SimpleImagePush.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/BookBean.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/FooBean.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/ValuesBean.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/el/Functions.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/EchoAttributesTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/FindBookSimpleTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/HelloWorldSimpleTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/RepeatSimpleTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/ShuffleSimpleTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/jsp2/examples/simpletag/TileSimpleTag.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/listeners/ContextListener.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/listeners/ContextListener.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/listeners/SessionListener.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/listeners/SessionListener.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter$CounterListener.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/ByteCounter.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter$NumberWriterListener.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/nonblocking/NumberWriter.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/num/NumberGuessBean.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/num/NumberGuessBean.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/sessions/DummyCart.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/sessions/DummyCart.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/util/CookieFilter.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/util/CookieFilter.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/util/HTMLFilter.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/util/HTMLFilter.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/validators/DebugValidator.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/validators/DebugValidator.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/ExamplesConfig.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/chat/ChatAnnotation.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Client$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Client.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage$ParseException.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawMessage.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardContextListener.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$2.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint$3.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/DrawboardEndpoint.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$2.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$MessageType.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Room$Player.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/Room.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/AbstractWebsocketMessage.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/BinaryWebsocketMessage.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/CloseWebsocketMessage.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/drawboard/wsmessages/StringWebsocketMessage.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoAnnotation.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation$CompletedFuture.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoAsyncAnnotation.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerBinary.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint$EchoMessageHandlerText.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoEndpoint.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/EchoStreamAnnotation.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/echo/servers.json
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/Direction.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/Direction.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/Location$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/Location.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/Location.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/Snake.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/Snake.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/SnakeAnnotation.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer$1.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.class
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/classes/websocket/snake/SnakeTimer.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/jsp2/jsp2-example-taglib.tld
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/jsp/applet/Clock2.java
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/jsp/debug-taglib.tld
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/jsp/example-taglib.tld
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/tags/displayProducts.tag
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/tags/helloWorld.tag
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/tags/panel.tag
+apache-tomcat-8.5.15/webapps/examples/WEB-INF/web.xml
+apache-tomcat-8.5.15/webapps/examples/index.html
+apache-tomcat-8.5.15/webapps/examples/jsp/async/async1.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/async/async1.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/async/async3.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/async/async3.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/async/index.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/async/index.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/Entries.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/Entry.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/JspCalendar.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/TableBean.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/cal1.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/cal1.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/cal2.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/cal2.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/calendar.html
+apache-tomcat-8.5.15/webapps/examples/jsp/cal/login.html
+apache-tomcat-8.5.15/webapps/examples/jsp/checkbox/CheckTest.html
+apache-tomcat-8.5.15/webapps/examples/jsp/checkbox/check.html
+apache-tomcat-8.5.15/webapps/examples/jsp/checkbox/checkresult.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/checkbox/checkresult.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/checkbox/cresult.html
+apache-tomcat-8.5.15/webapps/examples/jsp/colors/ColorGameBean.html
+apache-tomcat-8.5.15/webapps/examples/jsp/colors/clr.html
+apache-tomcat-8.5.15/webapps/examples/jsp/colors/colors.html
+apache-tomcat-8.5.15/webapps/examples/jsp/colors/colrs.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/colors/colrs.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/dates/date.html
+apache-tomcat-8.5.15/webapps/examples/jsp/dates/date.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/dates/date.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/error/er.html
+apache-tomcat-8.5.15/webapps/examples/jsp/error/err.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/error/err.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/error/error.html
+apache-tomcat-8.5.15/webapps/examples/jsp/error/errorpge.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/error/errorpge.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/forward/forward.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/forward/forward.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/forward/fwd.html
+apache-tomcat-8.5.15/webapps/examples/jsp/forward/one.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/forward/one.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/forward/two.html
+apache-tomcat-8.5.15/webapps/examples/jsp/images/code.gif
+apache-tomcat-8.5.15/webapps/examples/jsp/images/execute.gif
+apache-tomcat-8.5.15/webapps/examples/jsp/images/read.gif
+apache-tomcat-8.5.15/webapps/examples/jsp/images/return.gif
+apache-tomcat-8.5.15/webapps/examples/jsp/include/foo.html
+apache-tomcat-8.5.15/webapps/examples/jsp/include/foo.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/include/foo.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/include/inc.html
+apache-tomcat-8.5.15/webapps/examples/jsp/include/include.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/include/include.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/index.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/Functions.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/ValuesBean.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/ValuesTag.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/basic-arithmetic.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/basic-arithmetic.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/basic-comparisons.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/basic-comparisons.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/composite.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/composite.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/composite.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/functions.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/functions.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/functions.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/implicit-objects.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/implicit-objects.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/el/implicit-objects.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/FooBean.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/HelloWorldSimpleTag.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/ShuffleSimpleTag.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/TileSimpleTag.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/jspattribute.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/jspattribute.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/shuffle.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspattribute/shuffle.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/basic.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/basic.jspx
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/basic.jspx.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/svgexample.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/textRotate.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/textRotate.jpg
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/textRotate.jspx
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/jspx/textRotate.jspx.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/EchoAttributesTag.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/coda.jspf
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/coda.jspf.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/config.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/config.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/config.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/dynamicattrs.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/dynamicattrs.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/prelude.jspf
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/misc/prelude.jspf.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/BookBean.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/FindBookSimpleTag.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/Functions.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/HelloWorldSimpleTag.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/RepeatSimpleTag.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/book.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/book.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/book.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/hello.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/hello.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/hello.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/repeat.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/repeat.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/simpletag/repeat.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/displayProducts.tag.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/hello.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/hello.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/hello.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/helloWorld.tag.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/panel.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/panel.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/panel.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/panel.tag.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/products.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/products.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsp2/tagfiles/products.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsptoserv/ServletToJsp.java.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsptoserv/hello.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsptoserv/hello.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/jsptoserv/jsptoservlet.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/jsptoserv/jts.html
+apache-tomcat-8.5.15/webapps/examples/jsp/num/numguess.html
+apache-tomcat-8.5.15/webapps/examples/jsp/num/numguess.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/num/numguess.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/plugin/applet/Clock2.class
+apache-tomcat-8.5.15/webapps/examples/jsp/plugin/applet/Clock2.java
+apache-tomcat-8.5.15/webapps/examples/jsp/plugin/plugin.html
+apache-tomcat-8.5.15/webapps/examples/jsp/plugin/plugin.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/plugin/plugin.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/security/protected/error.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/security/protected/error.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/security/protected/index.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/security/protected/index.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/security/protected/login.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/security/protected/login.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/sessions/DummyCart.html
+apache-tomcat-8.5.15/webapps/examples/jsp/sessions/carts.html
+apache-tomcat-8.5.15/webapps/examples/jsp/sessions/carts.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/sessions/carts.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/sessions/crt.html
+apache-tomcat-8.5.15/webapps/examples/jsp/simpletag/foo.html
+apache-tomcat-8.5.15/webapps/examples/jsp/simpletag/foo.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/simpletag/foo.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/snp/snoop.html
+apache-tomcat-8.5.15/webapps/examples/jsp/snp/snoop.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/snp/snoop.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/source.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/source.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/choose.html
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/choose.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/choose.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/foreach.html
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/foreach.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/foreach.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/howto.html
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/if.html
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/if.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/if.jsp.html
+apache-tomcat-8.5.15/webapps/examples/jsp/tagplugin/notes.html
+apache-tomcat-8.5.15/webapps/examples/jsp/xml/xml.html
+apache-tomcat-8.5.15/webapps/examples/jsp/xml/xml.jsp
+apache-tomcat-8.5.15/webapps/examples/jsp/xml/xml.jsp.html
+apache-tomcat-8.5.15/webapps/examples/servlets/cookies.html
+apache-tomcat-8.5.15/webapps/examples/servlets/helloworld.html
+apache-tomcat-8.5.15/webapps/examples/servlets/images/code.gif
+apache-tomcat-8.5.15/webapps/examples/servlets/images/execute.gif
+apache-tomcat-8.5.15/webapps/examples/servlets/images/return.gif
+apache-tomcat-8.5.15/webapps/examples/servlets/index.html
+apache-tomcat-8.5.15/webapps/examples/servlets/nonblocking/bytecounter.html
+apache-tomcat-8.5.15/webapps/examples/servlets/reqheaders.html
+apache-tomcat-8.5.15/webapps/examples/servlets/reqinfo.html
+apache-tomcat-8.5.15/webapps/examples/servlets/reqparams.html
+apache-tomcat-8.5.15/webapps/examples/servlets/sessions.html
+apache-tomcat-8.5.15/webapps/examples/websocket/chat.xhtml
+apache-tomcat-8.5.15/webapps/examples/websocket/drawboard.xhtml
+apache-tomcat-8.5.15/webapps/examples/websocket/echo.xhtml
+apache-tomcat-8.5.15/webapps/examples/websocket/index.xhtml
+apache-tomcat-8.5.15/webapps/examples/websocket/snake.xhtml
+apache-tomcat-8.5.15/webapps/host-manager/META-INF/context.xml
+apache-tomcat-8.5.15/webapps/host-manager/WEB-INF/jsp/401.jsp
+apache-tomcat-8.5.15/webapps/host-manager/WEB-INF/jsp/403.jsp
+apache-tomcat-8.5.15/webapps/host-manager/WEB-INF/jsp/404.jsp
+apache-tomcat-8.5.15/webapps/host-manager/WEB-INF/web.xml
+apache-tomcat-8.5.15/webapps/host-manager/images/add.gif
+apache-tomcat-8.5.15/webapps/host-manager/images/asf-logo.svg
+apache-tomcat-8.5.15/webapps/host-manager/images/code.gif
+apache-tomcat-8.5.15/webapps/host-manager/images/design.gif
+apache-tomcat-8.5.15/webapps/host-manager/images/docs.gif
+apache-tomcat-8.5.15/webapps/host-manager/images/fix.gif
+apache-tomcat-8.5.15/webapps/host-manager/images/tomcat.gif
+apache-tomcat-8.5.15/webapps/host-manager/images/update.gif
+apache-tomcat-8.5.15/webapps/host-manager/images/void.gif
+apache-tomcat-8.5.15/webapps/host-manager/index.jsp
+apache-tomcat-8.5.15/webapps/host-manager/manager.xml
+apache-tomcat-8.5.15/webapps/manager/META-INF/context.xml
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/jsp/401.jsp
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/jsp/403.jsp
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/jsp/404.jsp
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/jsp/connectorCiphers.jsp
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/jsp/sessionDetail.jsp
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/jsp/sessionsList.jsp
+apache-tomcat-8.5.15/webapps/manager/WEB-INF/web.xml
+apache-tomcat-8.5.15/webapps/manager/images/add.gif
+apache-tomcat-8.5.15/webapps/manager/images/asf-logo.svg
+apache-tomcat-8.5.15/webapps/manager/images/code.gif
+apache-tomcat-8.5.15/webapps/manager/images/design.gif
+apache-tomcat-8.5.15/webapps/manager/images/docs.gif
+apache-tomcat-8.5.15/webapps/manager/images/fix.gif
+apache-tomcat-8.5.15/webapps/manager/images/tomcat.gif
+apache-tomcat-8.5.15/webapps/manager/images/update.gif
+apache-tomcat-8.5.15/webapps/manager/images/void.gif
+apache-tomcat-8.5.15/webapps/manager/index.jsp
+apache-tomcat-8.5.15/webapps/manager/status.xsd
+apache-tomcat-8.5.15/webapps/manager/xform.xsl
+apache-tomcat-8.5.15/bin/catalina.sh
+apache-tomcat-8.5.15/bin/configtest.sh
+apache-tomcat-8.5.15/bin/daemon.sh
+apache-tomcat-8.5.15/bin/digest.sh
+apache-tomcat-8.5.15/bin/setclasspath.sh
+apache-tomcat-8.5.15/bin/shutdown.sh
+apache-tomcat-8.5.15/bin/startup.sh
+apache-tomcat-8.5.15/bin/tool-wrapper.sh
+apache-tomcat-8.5.15/bin/version.sh
+ ---> 1961d9b6090c
+Removing intermediate container e0271447c03a
+Step 9/18 : RUN chmod +x ${CATALINA_HOME}/bin/*sh
+ ---> Running in ea50f7645f68
+ ---> 7fd545f7e47c
+Removing intermediate container ea50f7645f68
+Step 10/18 : ADD create_admin_user.sh $CATALINA_HOME/scripts/create_admin_user.sh
+ ---> cd05214be065
+Removing intermediate container 436bcea6ae63
+Step 11/18 : ADD tomcat.sh $CATALINA_HOME/scripts/tomcat.sh
+ ---> 4053b681d676
+Removing intermediate container d6aa8bc884fc
+Step 12/18 : RUN chmod +x $CATALINA_HOME/scripts/*.sh
+ ---> Running in 8ba831fee4c5
+ ---> 36e7f80e7eb1
+Removing intermediate container 8ba831fee4c5
+Step 13/18 : RUN groupadd -r tomcat &&  useradd -g tomcat -d ${CATALINA_HOME} -s /sbin/nologin  -c "Tomcat user" tomcat &&  chown -R tomcat:tomcat ${CATALINA_HOME}
+ ---> Running in 2a103b3c7d0c
+[91museradd: warning: the home directory already exists.
+Not copying any file from skel directory into it.
+[0m ---> 44eca8de35f9
+Removing intermediate container 2a103b3c7d0c
+Step 14/18 : WORKDIR /opt/tomcat
+ ---> 63d48d58a4c4
+Removing intermediate container d7047c11e0a2
+Step 15/18 : EXPOSE 8080
+ ---> Running in 52aa26a9f0ff
+ ---> f25af18980f1
+Removing intermediate container 52aa26a9f0ff
+Step 16/18 : EXPOSE 8009
+ ---> Running in af352af8f17a
+ ---> 593eb0596d7d
+Removing intermediate container af352af8f17a
+Step 17/18 : USER tomcat
+ ---> Running in cc0a154fd525
+ ---> aa6271b2118c
+Removing intermediate container cc0a154fd525
+Step 18/18 : CMD tomcat.sh
+ ---> Running in af1d4c70f8b2
+ ---> e0b3d78921d2
+Removing intermediate container af1d4c70f8b2
+Successfully built e0b3d78921d2
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dockerFingerprintFrom
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/tomcat:8-build11 registry.demo.cloudcontrolled.net/demo/tomcat:8-build11
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/tomcat:8-build11 registry.demo.cloudcontrolled.net/demo/tomcat:8-build11
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/tomcat:8-build11
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/tomcat]
+01fe1bd05f6d: Preparing
+88bec548d7e6: Preparing
+0e684473e77a: Preparing
+4d0e43683a3f: Preparing
+b161d24f687c: Preparing
+681738188e26: Preparing
+f36ea2536488: Preparing
+b719af8eed05: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+f36ea2536488: Waiting
+681738188e26: Waiting
+b719af8eed05: Waiting
+efd1ef41f34d: Waiting
+8cb1b4049e53: Waiting
+b51149973e6a: Waiting
+45b90922d1dd: Waiting
+0e684473e77a: Pushed
+b161d24f687c: Pushed
+88bec548d7e6: Pushed
+4d0e43683a3f: Pushed
+b719af8eed05: Mounted from demo/java
+efd1ef41f34d: Mounted from demo/app1
+8cb1b4049e53: Mounted from demo/app1
+45b90922d1dd: Mounted from demo/app1
+b51149973e6a: Mounted from demo/app1
+01fe1bd05f6d: Pushed
+681738188e26: Pushed
+f36ea2536488: Pushed
+8-build11: digest: sha256:68f66d8fb259d80a07d68c5ef53b8fce2e6bf3a9bf19e0c52298674c21cfaba7 size: 2835
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/tomcat:8-build11 registry.demo.cloudcontrolled.net/demo/tomcat:8
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/tomcat:8-build11 registry.demo.cloudcontrolled.net/demo/tomcat:8
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/tomcat:8
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/tomcat]
+01fe1bd05f6d: Preparing
+88bec548d7e6: Preparing
+0e684473e77a: Preparing
+4d0e43683a3f: Preparing
+b161d24f687c: Preparing
+681738188e26: Preparing
+f36ea2536488: Preparing
+b719af8eed05: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+b51149973e6a: Waiting
+01fe1bd05f6d: Waiting
+88bec548d7e6: Waiting
+0e684473e77a: Waiting
+4d0e43683a3f: Waiting
+b161d24f687c: Waiting
+681738188e26: Waiting
+f36ea2536488: Waiting
+b719af8eed05: Waiting
+45b90922d1dd: Waiting
+efd1ef41f34d: Waiting
+8cb1b4049e53: Waiting
+88bec548d7e6: Layer already exists
+0e684473e77a: Layer already exists
+4d0e43683a3f: Layer already exists
+b161d24f687c: Layer already exists
+01fe1bd05f6d: Layer already exists
+681738188e26: Layer already exists
+b719af8eed05: Layer already exists
+f36ea2536488: Layer already exists
+8cb1b4049e53: Layer already exists
+efd1ef41f34d: Layer already exists
+45b90922d1dd: Layer already exists
+b51149973e6a: Layer already exists
+8: digest: sha256:68f66d8fb259d80a07d68c5ef53b8fce2e6bf3a9bf19e0c52298674c21cfaba7 size: 2835
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerRegistry
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+Finished: SUCCESS

@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning repository git@github.com:flegrand/centos.git
+ > git init /var/jenkins_home/workspace/centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ@2 # timeout=10
+Fetching upstream changes from git@github.com:flegrand/centos.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/centos.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:flegrand/centos.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:flegrand/centos.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/centos.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/centos.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/7^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/7^{commit} # timeout=10
+Checking out Revision 3bc57d7cf8e675065493bb39567e6bd1120d44ca (refs/remotes/origin/7)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3bc57d7cf8e675065493bb39567e6bd1120d44ca
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b 7 3bc57d7cf8e675065493bb39567e6bd1120d44ca
+ > git rev-list 3bc57d7cf8e675065493bb39567e6bd1120d44ca # timeout=10

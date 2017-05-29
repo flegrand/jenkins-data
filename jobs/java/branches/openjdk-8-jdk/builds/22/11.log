@@ -1,0 +1,15 @@
+[java_openjdk-8-jdk-LH26BJQZB7KOG4ZDCRVMLHRHHA2CAGKGGFTPNOW6N2733DKH2W3A] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/java:openjdk-8-jdk-build22 .
+Sending build context to Docker daemon 94.21 kB
+Step 1/4 : FROM registry.demo.cloudcontrolled.net/demo/centos:7
+ ---> 437d66d45342
+Step 2/4 : RUN yum update -y && yum install -y wget && yum install -y java-1.8.0-openjdk java-1.8.0-openjdk-devel && yum clean all
+ ---> Using cache
+ ---> 9d70457c8d03
+Step 3/4 : ENV HOME /root
+ ---> Using cache
+ ---> 241128d2da4b
+Step 4/4 : WORKDIR /root
+ ---> Using cache
+ ---> 98bddd1f587c
+Successfully built 98bddd1f587c

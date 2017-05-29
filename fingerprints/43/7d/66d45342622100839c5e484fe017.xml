@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-29 09:14:06.46 UTC</timestamp>
+  <original>
+    <name>centos/7</name>
+    <number>20</number>
+  </original>
+  <md5sum>437d66d45342622100839c5e484fe017</md5sum>
+  <fileName>Docker image sha256:437d66d45342622100839c5e484fe0178eec515f748380d0d7e9e08866797cae</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.6">
+      <timestamp>1496049246029</timestamp>
+      <imageId>sha256:437d66d45342622100839c5e484fe0178eec515f748380d0d7e9e08866797cae</imageId>
+      <usages>
+        <entry>
+          <string>centos/7</string>
+          <ranges>20-25</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:8140d0c64310d4e290bf3938757837dbb8f806acba0cb3f6a852558074345348</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet plugin="docker-commons@1.6">
+      <timestamp>1496049451407</timestamp>
+      <imageId>sha256:437d66d45342622100839c5e484fe0178eec515f748380d0d7e9e08866797cae</imageId>
+      <usages>
+        <entry>
+          <string>java/openjdk-8-jdk</string>
+          <ranges>18-22</ranges>
+        </entry>
+        <entry>
+          <string>httpd/2.4</string>
+          <ranges>12-16</ranges>
+        </entry>
+        <entry>
+          <string>java/openjdk-7-jdk</string>
+          <ranges>15-19</ranges>
+        </entry>
+      </usages>
+      <descendantImageIds class="sorted-set">
+        <string>sha256:98bddd1f587ccb71a94d6c988c9782c3f47f0f33171033ff08f5891a7e7ec1c5</string>
+        <string>sha256:9f72d0f8805ca4cf57a45dc7a08f9e75e02c177f656be513ab42ae1e55060644</string>
+        <string>sha256:c50753488d22745795c9e9ce066ac24c5344d0d0db317c88a6957e66720307d9</string>
+      </descendantImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet>
+  </facets>
+</fingerprint>

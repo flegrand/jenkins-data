@@ -1,0 +1,245 @@
+Started by user [8mha:////4KFkUOz9PG7gVaXzVl+ohEZItgngNhbDRlS7LpG2kpwFAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgZu/dLi1CL9xJTczDwAEmIUecAAAAA=[0mAdmin User
+[8mha:////4OdK5HmHOAXmJueOFEzmVjiUIsNqdd85c7vuDGkh/ywLAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRMcHV9JgB9mh3BjgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+Obtained Jenkinsfile from 3bc57d7cf8e675065493bb39567e6bd1120d44ca
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] node
+Running on master in /var/jenkins_home/workspace/centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] git
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url git@github.com:flegrand/centos.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/centos.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/centos.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/7^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/7^{commit} # timeout=10
+Checking out Revision 3bc57d7cf8e675065493bb39567e6bd1120d44ca (refs/remotes/origin/7)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 3bc57d7cf8e675065493bb39567e6bd1120d44ca
+ > git branch -a -v --no-abbrev # timeout=10
+ > git branch -D 7 # timeout=10
+ > git checkout -b 7 3bc57d7cf8e675065493bb39567e6bd1120d44ca
+ > git rev-list 3bc57d7cf8e675065493bb39567e6bd1120d44ca # timeout=10
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] stage (Build and Push Docker image)
+Using the ‘stage’ step without a block argument is deprecated
+Entering stage Build and Push Docker image
+Proceeding
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerRegistry
+Wrote authentication to /var/jenkins_home/.docker/config.json
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] {
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/centos:7-build20 .
+Sending build context to Docker daemon 111.6 kB
+Step 1/4 : FROM centos:7
+ ---> 8140d0c64310
+Step 2/4 : RUN yum upgrade -y
+ ---> Running in 5deadeb96888
+Loaded plugins: fastestmirror, ovl
+Determining fastest mirrors
+ * base: mirror.spreitzer.ch
+ * extras: mirror.spreitzer.ch
+ * updates: mirror.spreitzer.ch
+Resolving Dependencies
+--> Running transaction check
+---> Package dracut.x86_64 0:033-463.el7 will be updated
+---> Package dracut.x86_64 0:033-463.el7_3.1 will be an update
+---> Package glibc.x86_64 0:2.17-157.el7_3.1 will be updated
+---> Package glibc.x86_64 0:2.17-157.el7_3.2 will be an update
+---> Package glibc-common.x86_64 0:2.17-157.el7_3.1 will be updated
+---> Package glibc-common.x86_64 0:2.17-157.el7_3.2 will be an update
+---> Package kpartx.x86_64 0:0.4.9-99.el7_3.1 will be updated
+---> Package kpartx.x86_64 0:0.4.9-99.el7_3.3 will be an update
+---> Package systemd.x86_64 0:219-30.el7_3.8 will be updated
+---> Package systemd.x86_64 0:219-30.el7_3.9 will be an update
+---> Package systemd-libs.x86_64 0:219-30.el7_3.8 will be updated
+---> Package systemd-libs.x86_64 0:219-30.el7_3.9 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package             Arch          Version                 Repository      Size
+================================================================================
+Updating:
+ dracut              x86_64        033-463.el7_3.1         updates        317 k
+ glibc               x86_64        2.17-157.el7_3.2        updates        3.6 M
+ glibc-common        x86_64        2.17-157.el7_3.2        updates         11 M
+ kpartx              x86_64        0.4.9-99.el7_3.3        updates         68 k
+ systemd             x86_64        219-30.el7_3.9          updates        5.2 M
+ systemd-libs        x86_64        219-30.el7_3.9          updates        369 k
+
+Transaction Summary
+================================================================================
+Upgrade  6 Packages
+
+Total download size: 21 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+[91mwarning: /var/cache/yum/x86_64/7/updates/packages/dracut-033-463.el7_3.1.x86_64.rpm: Header V3 RSA/SHA256 Signature, key ID f4a80eb5: NOKEY
+[0mPublic key for dracut-033-463.el7_3.1.x86_64.rpm is not installed
+--------------------------------------------------------------------------------
+Total                                               19 MB/s |  21 MB  00:01     
+Retrieving key from file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+[91mImporting GPG key 0xF4A80EB5:
+ Userid     : "CentOS-7 Key (CentOS 7 Official Signing Key) <security@centos.org>"
+ Fingerprint: 6341 ab27 53d7 8a78 a7c2 7bb1 24c6 a8a7 f4a8 0eb5
+ Package    : centos-release-7-3.1611.el7.centos.x86_64 (@CentOS)
+ From       : /etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+[0mRunning transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : glibc-common-2.17-157.el7_3.2.x86_64                        1/12 
+  Updating   : glibc-2.17-157.el7_3.2.x86_64                               2/12 
+  Updating   : kpartx-0.4.9-99.el7_3.3.x86_64                              3/12 
+  Updating   : systemd-libs-219-30.el7_3.9.x86_64                          4/12 
+  Updating   : systemd-219-30.el7_3.9.x86_64                               5/12 
+  Updating   : dracut-033-463.el7_3.1.x86_64                               6/12 
+  Cleanup    : dracut-033-463.el7.x86_64                                   7/12 
+  Cleanup    : systemd-219-30.el7_3.8.x86_64                               8/12 
+  Cleanup    : systemd-libs-219-30.el7_3.8.x86_64                          9/12 
+  Cleanup    : kpartx-0.4.9-99.el7_3.1.x86_64                             10/12 
+  Cleanup    : glibc-common-2.17-157.el7_3.1.x86_64                       11/12 
+  Cleanup    : glibc-2.17-157.el7_3.1.x86_64                              12/12 
+  Verifying  : glibc-2.17-157.el7_3.2.x86_64                               1/12 
+  Verifying  : kpartx-0.4.9-99.el7_3.3.x86_64                              2/12 
+  Verifying  : glibc-common-2.17-157.el7_3.2.x86_64                        3/12 
+  Verifying  : systemd-libs-219-30.el7_3.9.x86_64                          4/12 
+  Verifying  : dracut-033-463.el7_3.1.x86_64                               5/12 
+  Verifying  : systemd-219-30.el7_3.9.x86_64                               6/12 
+  Verifying  : glibc-common-2.17-157.el7_3.1.x86_64                        7/12 
+  Verifying  : systemd-219-30.el7_3.8.x86_64                               8/12 
+  Verifying  : glibc-2.17-157.el7_3.1.x86_64                               9/12 
+  Verifying  : dracut-033-463.el7.x86_64                                  10/12 
+  Verifying  : kpartx-0.4.9-99.el7_3.1.x86_64                             11/12 
+  Verifying  : systemd-libs-219-30.el7_3.8.x86_64                         12/12 
+
+Updated:
+  dracut.x86_64 0:033-463.el7_3.1         glibc.x86_64 0:2.17-157.el7_3.2      
+  glibc-common.x86_64 0:2.17-157.el7_3.2  kpartx.x86_64 0:0.4.9-99.el7_3.3     
+  systemd.x86_64 0:219-30.el7_3.9         systemd-libs.x86_64 0:219-30.el7_3.9 
+
+Complete!
+ ---> 097a2c549fd1
+Removing intermediate container 5deadeb96888
+Step 3/4 : RUN yum install -y zip unzip procps systat net-tools supervisor python-setuptools wget
+ ---> Running in 3b40ddbb2d50
+Loaded plugins: fastestmirror, ovl
+Loading mirror speeds from cached hostfile
+ * base: mirror.spreitzer.ch
+ * extras: mirror.spreitzer.ch
+ * updates: mirror.spreitzer.ch
+Package procps-ng-3.3.10-10.el7.x86_64 already installed and latest version
+No package systat available.
+No package supervisor available.
+Resolving Dependencies
+--> Running transaction check
+---> Package net-tools.x86_64 0:2.0-0.17.20131004git.el7 will be installed
+---> Package python-setuptools.noarch 0:0.9.8-4.el7 will be installed
+--> Processing Dependency: python-backports-ssl_match_hostname for package: python-setuptools-0.9.8-4.el7.noarch
+---> Package unzip.x86_64 0:6.0-16.el7 will be installed
+---> Package wget.x86_64 0:1.14-13.el7 will be installed
+---> Package zip.x86_64 0:3.0-11.el7 will be installed
+--> Running transaction check
+---> Package python-backports-ssl_match_hostname.noarch 0:3.4.0.2-4.el7 will be installed
+--> Processing Dependency: python-backports for package: python-backports-ssl_match_hostname-3.4.0.2-4.el7.noarch
+--> Running transaction check
+---> Package python-backports.x86_64 0:1.0-8.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package                             Arch   Version                  Repository
+                                                                           Size
+================================================================================
+Installing:
+ net-tools                           x86_64 2.0-0.17.20131004git.el7 base 304 k
+ python-setuptools                   noarch 0.9.8-4.el7              base 396 k
+ unzip                               x86_64 6.0-16.el7               base 169 k
+ wget                                x86_64 1.14-13.el7              base 546 k
+ zip                                 x86_64 3.0-11.el7               base 260 k
+Installing for dependencies:
+ python-backports                    x86_64 1.0-8.el7                base 5.8 k
+ python-backports-ssl_match_hostname noarch 3.4.0.2-4.el7            base  12 k
+
+Transaction Summary
+================================================================================
+Install  5 Packages (+2 Dependent packages)
+
+Total download size: 1.7 M
+Installed size: 5.9 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              5.5 MB/s | 1.7 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : python-backports-1.0-8.el7.x86_64                            1/7 
+  Installing : python-backports-ssl_match_hostname-3.4.0.2-4.el7.noarch     2/7 
+  Installing : python-setuptools-0.9.8-4.el7.noarch                         3/7 
+  Installing : unzip-6.0-16.el7.x86_64                                      4/7 
+  Installing : wget-1.14-13.el7.x86_64                                      5/7 
+install-info: No such file or directory for /usr/share/info/wget.info.gz
+  Installing : net-tools-2.0-0.17.20131004git.el7.x86_64                    6/7 
+  Installing : zip-3.0-11.el7.x86_64                                        7/7 
+  Verifying  : python-setuptools-0.9.8-4.el7.noarch                         1/7 
+  Verifying  : python-backports-ssl_match_hostname-3.4.0.2-4.el7.noarch     2/7 
+  Verifying  : zip-3.0-11.el7.x86_64                                        3/7 
+  Verifying  : python-backports-1.0-8.el7.x86_64                            4/7 
+  Verifying  : net-tools-2.0-0.17.20131004git.el7.x86_64                    5/7 
+  Verifying  : wget-1.14-13.el7.x86_64                                      6/7 
+  Verifying  : unzip-6.0-16.el7.x86_64                                      7/7 
+
+Installed:
+  net-tools.x86_64 0:2.0-0.17.20131004git.el7                                   
+  python-setuptools.noarch 0:0.9.8-4.el7                                        
+  unzip.x86_64 0:6.0-16.el7                                                     
+  wget.x86_64 0:1.14-13.el7                                                     
+  zip.x86_64 0:3.0-11.el7                                                       
+
+Dependency Installed:
+  python-backports.x86_64 0:1.0-8.el7                                           
+  python-backports-ssl_match_hostname.noarch 0:3.4.0.2-4.el7                    
+
+Complete!
+ ---> 0d020401ce4d
+Removing intermediate container 3b40ddbb2d50
+Step 4/4 : RUN ln -sf /usr/share/zoneinfo/Europe/Zurich /etc/localtime
+ ---> Running in ec7ec3548a34
+ ---> 437d66d45342
+Removing intermediate container ec7ec3548a34
+Successfully built 437d66d45342
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] dockerFingerprintFrom
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/centos:7-build20 registry.demo.cloudcontrolled.net/demo/centos:7-build20
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/centos:7-build20 registry.demo.cloudcontrolled.net/demo/centos:7-build20
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] sh
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/centos:7-build20
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/centos]
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+unauthorized: unable to get identity token from client token: invalid_grant: no such account for refresh token: id:241fa559-583d-4c42-9c08-aa9a34b993be
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerServer
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // withDockerRegistry
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] }
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] // node
+[8mha:////4CRYScPA44W36ayoMF0KDA6ullHEGHY0H5WeRxcy7MyVAAAAaB+LCAAAAAAAAP9b85aBtbiIwTG/KF0vKzUvOzOvODlTryCnNB3I0ivPL8pOy8kv18vKT9JLzs8rzs9J1QuHCgaV5jlDhPzyS1IZIICRiYGhoohBKqM0pTg/D64Hh8ICAFt0h+h/AAAA[0m[Pipeline] End of Pipeline
+
+GitHub has been notified of this commit’s build result
+
+ERROR: script returned exit code 1
+[8mha:////4O2EGF/TrHnlR0pUMOIoqdhC0q5LOwUOekIujrIggMqDAAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mFinished: FAILURE

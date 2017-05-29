@@ -1,6 +1,6 @@
 Started by timer
-[Tue May 23 15:52:00 UTC 2017] Starting branch indexing...
-[8mha:////4J92XlKKtXmz6Hdwdg+oKL/5Q//YAMhBxeMpzY7HHjviAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSMGRObIgCOxT8QjgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+[Mon May 29 09:18:00 UTC 2017] Starting branch indexing...
+[8mha:////4EEOYrqVIidt4NBRFm+da37Q2HIivAxOQu4vGUMa98wXAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRMcH25DgC2DXsIjgAAAA==[0mConnecting to https://api.github.com using flegrand/******
 Looking up [8mha:////4Pl9AhQuK9b5le8sdr13x5tlNrTgDuhz4v9+5WMnHnXOAAAAoh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgL2FQyigpKSi20tdPzyzJKE0C6srVT8tJTS9KzEvRL8nPTU4sAQDxD2VPpwAAAA==[0mflegrand/tomcat
 
   Getting remote pull requests...
@@ -18,5 +18,5 @@ No changes detected: 8 (still at 7f874f5df316b44a136a00f8d32e56da31d2185f)
 
 Done examining flegrand/tomcat
 
-[Tue May 23 15:52:03 UTC 2017] Finished branch indexing. Indexing took 2.7 sec
+[Mon May 29 09:18:03 UTC 2017] Finished branch indexing. Indexing took 2 sec
 Finished: SUCCESS

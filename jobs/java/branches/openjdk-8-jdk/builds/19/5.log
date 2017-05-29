@@ -1,0 +1,21 @@
+Cloning the remote Git repository
+Cloning repository git@github.com:flegrand/java.git
+ > git init /var/jenkins_home/workspace/java_openjdk-8-jdk-LH26BJQZB7KOG4ZDCRVMLHRHHA2CAGKGGFTPNOW6N2733DKH2W3A@2 # timeout=10
+Fetching upstream changes from git@github.com:flegrand/java.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/java.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url git@github.com:flegrand/java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url git@github.com:flegrand/java.git # timeout=10
+Fetching upstream changes from git@github.com:flegrand/java.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress git@github.com:flegrand/java.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/openjdk-8-jdk^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/openjdk-8-jdk^{commit} # timeout=10
+Checking out Revision 61df72607f98a077efe1499cb2a4ef7b5faf01dc (refs/remotes/origin/openjdk-8-jdk)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 61df72607f98a077efe1499cb2a4ef7b5faf01dc
+ > git branch -a -v --no-abbrev # timeout=10
+ > git checkout -b openjdk-8-jdk 61df72607f98a077efe1499cb2a4ef7b5faf01dc
+ > git rev-list 61df72607f98a077efe1499cb2a4ef7b5faf01dc # timeout=10

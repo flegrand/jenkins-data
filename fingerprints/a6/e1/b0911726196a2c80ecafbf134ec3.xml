@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2017-05-29 09:18:27.262 UTC</timestamp>
+  <original>
+    <name>app1/master</name>
+    <number>10</number>
+  </original>
+  <md5sum>a6e1b0911726196a2c80ecafbf134ec3</md5sum>
+  <fileName>Docker image sha256:a6e1b0911726196a2c80ecafbf134ec3bc8e9041940d581a782178e387b39a47</fileName>
+  <usages/>
+  <facets>
+    <org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet plugin="docker-commons@1.6">
+      <timestamp>1496049507257</timestamp>
+      <imageId>sha256:a6e1b0911726196a2c80ecafbf134ec3bc8e9041940d581a782178e387b39a47</imageId>
+      <usages>
+        <entry>
+          <string>app1/master</string>
+          <ranges>10-12</ranges>
+        </entry>
+      </usages>
+      <ancestorImageIds class="sorted-set">
+        <string>sha256:f62bc60d24764771a71aa27f455d64c5fa530b5957a7b44c460f600ab501bb2c</string>
+      </ancestorImageIds>
+    </org.jenkinsci.plugins.docker.commons.fingerprint.DockerAncestorFingerprintFacet>
+  </facets>
+</fingerprint>

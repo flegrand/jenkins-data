@@ -43,3 +43,12 @@ cd
 cat .docker/config.json 
 cd
 cat .docker/config.json 
+ls
+cd .ss
+ls
+cd
+cd .ssh/
+ls
+ls -al
+chmod 600 id_rsa
+docker login registry.demo.cloudcontrolled.net

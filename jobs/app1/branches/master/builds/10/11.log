@@ -1,0 +1,9 @@
+[app1_master-4KRBSLOTZKJ6NJE5R6IRTUA6ERO6ROA2KKMZBKMGT33NKHYVY4VQ] Running shell script
++ docker build -t registry.demo.cloudcontrolled.net/demo/app1:master-build10 .
+Sending build context to Docker daemon 1.821 MB
+Step 1/2 : FROM registry.demo.cloudcontrolled.net/demo/php:5
+ ---> f62bc60d2476
+Step 2/2 : ADD web /var/www/html
+ ---> a6e1b0911726
+Removing intermediate container 7459f4005a27
+Successfully built a6e1b0911726

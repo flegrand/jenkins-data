@@ -15,11 +15,12 @@
       <usages>
         <entry>
           <string>centos/7</string>
-          <ranges>1-16</ranges>
+          <ranges>1-16,20-25</ranges>
         </entry>
       </usages>
       <descendantImageIds class="sorted-set">
         <string>sha256:1db9b793336c6430f012dcd07c47dca1fcd572b718f3ad9adec9c12568e71fa1</string>
+        <string>sha256:437d66d45342622100839c5e484fe0178eec515f748380d0d7e9e08866797cae</string>
       </descendantImageIds>
     </org.jenkinsci.plugins.docker.commons.fingerprint.DockerDescendantFingerprintFacet>
   </facets>

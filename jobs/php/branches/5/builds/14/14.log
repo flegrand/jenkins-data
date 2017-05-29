@@ -1,0 +1,23 @@
+[php_5-S3KRGTVXIVMCZZA42SYB4NKVM6IK34AJ37SX22QNQNPDLEGRHSOQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/php:5-build14
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/php]
+459499dbb589: Preparing
+04801a79bb2d: Preparing
+ee4ec915d241: Preparing
+d18bce29a804: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+8cb1b4049e53: Waiting
+45b90922d1dd: Waiting
+b51149973e6a: Waiting
+d18bce29a804: Layer already exists
+04801a79bb2d: Layer already exists
+efd1ef41f34d: Layer already exists
+ee4ec915d241: Layer already exists
+459499dbb589: Layer already exists
+45b90922d1dd: Layer already exists
+8cb1b4049e53: Layer already exists
+b51149973e6a: Layer already exists
+5-build14: digest: sha256:f71176dbd1fb8c760f3e601ffbe8f17f3d2e8890a78cbb8787ee8fe3dd901982 size: 1998

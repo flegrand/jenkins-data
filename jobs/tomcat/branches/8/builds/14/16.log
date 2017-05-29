@@ -1,0 +1,37 @@
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/tomcat:8
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/tomcat]
+01fe1bd05f6d: Preparing
+88bec548d7e6: Preparing
+0e684473e77a: Preparing
+4d0e43683a3f: Preparing
+b161d24f687c: Preparing
+681738188e26: Preparing
+f36ea2536488: Preparing
+b719af8eed05: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+b719af8eed05: Waiting
+4d0e43683a3f: Waiting
+efd1ef41f34d: Waiting
+b161d24f687c: Waiting
+8cb1b4049e53: Waiting
+681738188e26: Waiting
+45b90922d1dd: Waiting
+f36ea2536488: Waiting
+0e684473e77a: Waiting
+01fe1bd05f6d: Layer already exists
+4d0e43683a3f: Layer already exists
+b161d24f687c: Layer already exists
+0e684473e77a: Layer already exists
+88bec548d7e6: Layer already exists
+f36ea2536488: Layer already exists
+681738188e26: Layer already exists
+8cb1b4049e53: Layer already exists
+efd1ef41f34d: Layer already exists
+b719af8eed05: Layer already exists
+45b90922d1dd: Layer already exists
+b51149973e6a: Layer already exists
+8: digest: sha256:68f66d8fb259d80a07d68c5ef53b8fce2e6bf3a9bf19e0c52298674c21cfaba7 size: 2835

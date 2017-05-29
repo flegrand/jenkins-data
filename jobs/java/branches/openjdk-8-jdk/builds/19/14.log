@@ -1,0 +1,19 @@
+[java_openjdk-8-jdk-LH26BJQZB7KOG4ZDCRVMLHRHHA2CAGKGGFTPNOW6N2733DKH2W3A@2] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/java:openjdk-8-jdk-build19
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/java]
+b719af8eed05: Preparing
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+b719af8eed05: Waiting
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+efd1ef41f34d: Waiting
+b51149973e6a: Waiting
+8cb1b4049e53: Waiting
+45b90922d1dd: Waiting
+8cb1b4049e53: Mounted from demo/httpd
+45b90922d1dd: Mounted from demo/httpd
+efd1ef41f34d: Mounted from demo/httpd
+b51149973e6a: Mounted from demo/httpd
+b719af8eed05: Pushed
+openjdk-8-jdk-build19: digest: sha256:a6acef258d66fbcce3844974e063a60e0cf0a126475e8a84532190daa69fa16c size: 1372

@@ -1,0 +1,5 @@
+[tomcat_8-UCSTNIYECUNIP744ID43ADD5Y5O4GBL2NWS4BAXH7OHJYWA2BMPQ@2] Running shell script
++ docker tag --force=true registry.demo.cloudcontrolled.net/demo/tomcat:8-build12 registry.demo.cloudcontrolled.net/demo/tomcat:8-build12
+unknown flag: --force
+See 'docker tag --help'.
++ docker tag registry.demo.cloudcontrolled.net/demo/tomcat:8-build12 registry.demo.cloudcontrolled.net/demo/tomcat:8-build12

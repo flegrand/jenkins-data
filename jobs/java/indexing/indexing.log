@@ -1,6 +1,6 @@
 Started by timer
-[Tue May 23 15:52:00 UTC 2017] Starting branch indexing...
-[8mha:////4LvphmaEui/j8ue4jHnEjFlbwKqlHnsVelyf6jvXitF0AAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHSMGRPrPABQOMxgjgAAAA==[0mConnecting to https://api.github.com using flegrand/******
+[Mon May 29 09:18:00 UTC 2017] Starting branch indexing...
+[8mha:////4D++FLrFeW8DcDBRWmIpdEgAwvFw+QFRGy9MktoTAgsnAAAAhB+LCAAAAAAAAP9b85aBtbiIwSa/KF0vKzUvOzOvODlTryCnNB3I0kvPLMkoTYpPKkrMS86IL84vLUpO1XPPLPEoTXLOzyvOz0n1yy9JZYAARiYGRi8GzpLM3NTiksTcgooiBqmM0pTi/Dy9ZIhiPayaGCoKgHRMcH15FwBrC843jgAAAA==[0mConnecting to https://api.github.com using flegrand/******
 Looking up [8mha:////4LG7WPH7uVcYfFXzV4dcCQL/Qmm8FM7s47Du/aJFjHAsAAAAnh+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWFQyCgpKSi20tdPzyzJKE0C6srVT8tJTS9KzEvRBxkPAGeZYymlAAAA[0mflegrand/java
 
   Getting remote pull requests...
@@ -23,5 +23,5 @@ No changes detected: openjdk-8-jdk (still at 61df72607f98a077efe1499cb2a4ef7b5fa
 
 Done examining flegrand/java
 
-[Tue May 23 15:52:03 UTC 2017] Finished branch indexing. Indexing took 3 sec
+[Mon May 29 09:18:03 UTC 2017] Finished branch indexing. Indexing took 2.8 sec
 Finished: SUCCESS

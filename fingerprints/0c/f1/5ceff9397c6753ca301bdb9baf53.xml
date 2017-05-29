@@ -6,31 +6,31 @@
   <usages>
     <entry>
       <string>centos/7</string>
-      <ranges>1-16</ranges>
+      <ranges>1-25</ranges>
     </entry>
     <entry>
       <string>java/openjdk-8-jdk</string>
-      <ranges>1-17</ranges>
-    </entry>
-    <entry>
-      <string>tomcat/8</string>
-      <ranges>1-10</ranges>
+      <ranges>1-22</ranges>
     </entry>
     <entry>
       <string>httpd/2.4</string>
-      <ranges>1-11</ranges>
+      <ranges>1-16</ranges>
+    </entry>
+    <entry>
+      <string>tomcat/8</string>
+      <ranges>1-14</ranges>
     </entry>
     <entry>
       <string>php/5</string>
-      <ranges>1-10</ranges>
+      <ranges>1-14</ranges>
     </entry>
     <entry>
       <string>app1/master</string>
-      <ranges>1-9</ranges>
+      <ranges>1-12</ranges>
     </entry>
     <entry>
       <string>java/openjdk-7-jdk</string>
-      <ranges>1-14</ranges>
+      <ranges>1-19</ranges>
     </entry>
   </usages>
   <facets/>

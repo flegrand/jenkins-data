@@ -1,0 +1,12 @@
+[centos_7-PIDCJUU3SUGUHEPNN62JXXPOJBCK3UVGOWE33FTYNAHJC2FJ3TZQ] Running shell script
++ docker push registry.demo.cloudcontrolled.net/demo/centos:7-build21
+The push refers to a repository [registry.demo.cloudcontrolled.net/demo/centos]
+efd1ef41f34d: Preparing
+8cb1b4049e53: Preparing
+45b90922d1dd: Preparing
+b51149973e6a: Preparing
+efd1ef41f34d: Pushed
+8cb1b4049e53: Pushed
+45b90922d1dd: Pushed
+b51149973e6a: Pushed
+7-build21: digest: sha256:00df151215d07346c97f14391cf7b4dd0b8c6d86fb4d6c557071f2fdd09f7654 size: 1160
